@@ -6,10 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PNR Converter - The simplist way to convert PNRs into customer friendly quotes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/nav.css" />
+    <script src="./js/functions.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107272376-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107272376-1');
+    </script>
 </head>
 
 <body>
@@ -33,42 +42,77 @@
             <h1>PNR Converter</h1>
             <h2> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h2>
         </div>
-
-        <div id="dataInput">
-
-            <form>
-                <div class="test1"></div>
-                    <div class="test1"></div>
-                <!-- <textarea placeholder="Copy and Paste Your Smartpoint, Galileo, Sabre, Amadeus or Worldspan itinerary here"></textarea>
-                <input type="submit" value="Convert" id="convertButton"> -->
-
-            </form>
-
-        </div>
-        <div class="lineBreak"></div>
-        <div id="displayOptions">
-            <div class="displayOption" id="showAirLineName">
-                <p>Show Airline Name</p>
+        <form id="maininput" action="/" method="post" name="maininput">
+            <div id="dataInput">
+                <textarea class="dataInputChild" id="dataInputTextArea" placeholder="Copy and paste Galileo, Smartpoint, Amadeus or Sabre itinerary here..."
+                    onfocus="this.placeholder = ''"></textarea>
+                <input class="dataInputChild" type="submit" value="Convert" id="convertButton">
             </div>
-            <div class="displayOption" id="showCabin">
-                <p>Show Cabin</p>
+            <div class="lineBreak"></div>
+            <div id="displayOptions">
+                <div class="displayOption" id="showAirLineName">
+                        <input type="checkbox" name="airlinename" id="airlinenameInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="airlinename">Show Airline Name</label>
+                        
+                    <!-- <p>Show Airline Name</p> -->
+                </div>
+                <div class="displayOption" id="showCabin">
+                        <input type="checkbox" name="showcabin" id="showcabinInput" onchange="document.getElementById('maininput').submit()" > 
+                        <label for="showcabin">Show Cabin</label>
+                </div>
+                <div class="displayOption" id="flightDuration">
+                        <input type="checkbox" name="duration" id="durationInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="duration">Flight Duration</label>
+                </div>
+                <div class="displayOption" id="showDistance">
+                        <input type="checkbox" name="distance" id="distanceInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="distance">Show Distance</label>
+                </div>
+                <div class="displayOption" id="hourClock">
+                        <input type="checkbox" name="timeformat" id="timeformatInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="timeformat">12 Hour Clock</label>
+                </div>
+                <div class="displayOption" id="showTitle">
+                        <input type="checkbox" name="quoteheader" id="quoteheaderInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="quoteheader">Show Title</label>
+                </div>
+                <div class="displayOption" id="transitTime">
+                        <input type="checkbox" name="transittime" id="transittimeInput" onchange="document.getElementById('maininput').submit()" >
+                        <label for="transittime">Transit Time</label>
+                </div>
             </div>
-            <div class="displayOption" id="flightDuration">
-                <p>Flight Duration</p>
+            <div id="advertisingArea">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Long ad -->
+                <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2303157713889417" data-ad-slot="8744366555"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
             </div>
-            <div class="displayOption" id="showDistance">
-                <p>Show Distance</p>
+            <div id="dataInput">
+                <div class="displayOption" id="twoLines">
+                        <input type="radio" name="resultformat" value="twolines" id="resultformat_0" onchange="document.getElementById('maininput').submit()">
+                        <label for="resultformat_0">   Two Lines</label>
+                </div>
+                <div class="displayOption" id="twoLinesReordered">
+                        <input type="radio" name="resultformat" value="twolinesreordered" id="resultformat_1" onchange="document.getElementById('maininput').submit()">
+                        <label for ="resultformat_1">   Two Lines Reordered</label>
+                </div>
+                <div class="displayOption" id="twoLines">
+                        <input type="radio" name="resultformat" value="threelines" id="resultformat_2"  onchange="document.getElementById('maininput').submit()" >
+                        <label for="resultformat_2"> Three Lines</label>
+                </div>
+                <div class="displayOption" id="twoLines">
+                        <input type="radio" name="resultformat" value="threelinesreordered" id="resultformat_3" onchange="document.getElementById('maininput').submit()">
+                        <label for="resultformat_3">Three Lines Reordered</label>
+                </div>
+                <div class="displayOption" id="twoLines">
+                        <input type="radio" name="resultformat" value="tableoutput" id="resultformat_4" onchange="document.getElementById('maininput').submit()">
+                        <label for="resultformat_4">Table</label>
+                </div>
             </div>
-            <div class="displayOption" id="hourClock">
-                <p>12 Hour Clock</p>
-            </div>
-            <div class="displayOption" id="showTitle">
-                <p>Show Title</p>
-            </div>
-            <div class="displayOption" id="transitTime">
-                <p>Transit Time</p>
-            </div>
-        </div>
+            <div class="lineBreak"></div>
+        </form>
         <!-- <div class="lineBreak"></div> -->
 
 

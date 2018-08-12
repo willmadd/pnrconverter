@@ -1,0 +1,81 @@
+
+
+/* start of nav bar */
+.box {
+  width: 75px;
+  height: 95px;
+  background-color: black;
+  display: flex;
+  margin: 10px;
+  background-color: black;
+  transition: 0.5s;
+  color: aliceblue;
+  justify-content: center;
+  line-height: 75px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.box:hover {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+
+
+.box img {
+  background-color: white;
+  clear: both;
+  display: block;
+}
+
+#boxcontainer .box img {
+  background-color: white;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #homeImage {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #aboutUsImage {
+  background-color: darkgreen;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #suggestionsImage {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+#boxcontainer .box p {
+  font-size: 12px;
+  display: inline;
+  margin-left: -1000px;
+  transition:0.5s;
+}
+
+#boxcontainer:hover .box p {
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.box img:hover .box p {
+  font-size: 36px;
+  transition: 0.5s;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  background-color: black;
+  height: 100%;
+}
+
+/* end of nav bar */
