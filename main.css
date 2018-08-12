@@ -1,0 +1,295 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  display: inline;
+}
+h2 {
+  color: #ffffff;
+  display: inline;
+}
+
+/* start of nav bar */
+.box {
+  width: 75px;
+  height: 95px;
+  background-color: black;
+  display: flex;
+  margin: 10px;
+  background-color: black;
+  transition: 0.5s;
+  color: aliceblue;
+  justify-content: center;
+  line-height: 75px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.box:hover {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+
+
+.box img {
+  background-color: white;
+  clear: both;
+  display: block;
+}
+
+#boxcontainer .box img {
+  background-color: white;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #homeImage {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #aboutUsImage {
+  background-color: darkgreen;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #suggestionsImage {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+#boxcontainer .box p {
+  font-size: 12px;
+  display: inline;
+  margin-left: -1000px;
+  transition:0.5s;
+}
+
+#boxcontainer:hover .box p {
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.box img:hover .box p {
+  font-size: 36px;
+  transition: 0.5s;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  background-color: black;
+  height: 100%;
+}
+
+/* end of nav bar */
+/*start of main body content */
+
+#mainBodyContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* start of header */
+#headerContainer {
+  width: 100%;
+  height: 60px;
+  background-color: #100535;
+  font-family: "Montserrat", sans-serif;
+  line-height: 60px;
+  padding: 20px;
+  color: #d12;
+  display: inline-block;
+  clear: both;
+}
+/* end of header */
+
+/* end of headerr */
+/* start of inputr */
+
+#dataInput {
+  width: 100%;
+  height: 150px;
+  /* display: inline-block; */
+  color: grey;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+background-color: bisque;
+
+}
+
+
+#dataInput textarea {
+  box-sizing: border-box; /* fit parent width */
+  height: 100%;
+  resize: none;
+  flex: 3;
+  justify-content: center;
+  width: 80%;
+  clear:both;
+  outline: none;
+}
+
+#dataInput #convertButton {
+  box-sizing: border-box; /* fit parent width */
+  height: 100%;
+  resize: none;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+#dataInput form{
+  display: flex;
+}
+
+#convertButton{
+  cursor: pointer;
+  height: 100%;
+  background-color: #d12;
+}
+
+.test1{
+  min-height: 100px;
+  min-width: 100px;
+  margin: 10px;
+  background-color: gold;
+}
+
+.lineBreak {
+  height: 2px;
+  background-color: black;
+}
+
+#displayOptions {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  flex-wrap: wrap;
+  height: 40px;
+}
+.displayOption {
+  /* background-color: #d12; */
+  padding: 5px;
+  padding-top: 0px;
+  height: 30px;
+  line-height: 0px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+  font-size: 12px;
+  /* display: inline-block; */
+}
+
+.displayOption:hover {
+  background-color: #ffffff;
+  color: black !important;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #showAirLineName {
+  color: blue;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #showCabin {
+  color: darkgreen;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #flightDuration {
+  color: purple;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #showDistance {
+  color: orange;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #hourClock {
+  color: darkgreen;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #showCabin {
+  color: orange;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #showTitle {
+  color: purple;
+  transition: 0.5s;
+}
+
+#displayOptions:hover #transitTime {
+  color: blue;
+  transition: 0.5s;
+}
+
+.displayOption p {
+  position: relative;
+}
+
+.displayOption p::before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 1px solid;
+  margin-right: 5px;
+  margin-bottom: -3px;
+  border-radius: 0px;
+}
+
+.displayOption p::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 8px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  color: #ec9a29;
+  transform: rotate(-45deg);
+
+  position: absolute;
+}
+
+#showAirLineName p::after {
+  left: 13px;
+  top: 3px;
+}
+
+#showCabin p::after {
+  left: 34px;
+  top: 3px;
+}
+
+#flightDuration p::after {
+    left: 24px;
+    top: 3px;
+  }
