@@ -24,27 +24,27 @@
 <body>
     <div id="boxcontainer">
         <div class='box'>
-            <img id="homeImage" src="images/plane2.png" height="75" width="75">
+            <img id="homeImage" src="images/plane50.png" height="50" width="50">
             <p>Home</p>
         </div>
         <div class='box'>
-            <img id="aboutUsImage" src="images/aboutus.png" height="75" width="75">
+            <img id="aboutUsImage" src="images/aboutus50.png" height="50" width="50">
             <p>About Us</p>
         </div>
         <div class='box'>
-            <img id="suggestionsImage" src="images/plane2.png" height="75" width="75">
+            <img id="suggestionsImage" src="images/plane50.png" height="50" width="50">
             <p>Suggestions</p>
         </div>
     </div>
 
     <div id="mainBodyContent">
         <div id="headerContainer">
-            <h1>PNR Converter</h1>
-            <h2> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h2>
+            <!-- <h1>PNR Converter</h1> -->
+            <!-- <h2> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h2> -->
         </div>
-        <form id="maininput" action="/" method="post" name="maininput">
+        <form id="maininput" action="http://127.0.0.1:3000/" method="post" name="maininput">
             <div id="dataInput">
-                <textarea class="dataInputChild" id="dataInputTextArea" placeholder="Copy and paste Galileo, Smartpoint, Amadeus or Sabre itinerary here..."
+                <textarea name="dataInput" class="dataInputChild" id="dataInputTextArea" placeholder="Copy and paste Galileo, Smartpoint, Amadeus or Sabre itinerary here..."
                     onfocus="this.placeholder = ''"></textarea>
                 <input class="dataInputChild" type="submit" value="Convert" id="convertButton">
             </div>
