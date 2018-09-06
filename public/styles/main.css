@@ -3,21 +3,29 @@ body {
   margin: 0px;
   padding: 0px;
   display: flex;
+  align-items: stretch;
 }
 
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
 }
 
 h1 {
-  color: #ffffff;
+  font-family: 'IM Fell Double Pica', serif;
+  /* color: black; */
   display: inline;
 }
 h2 {
-  color: #ffffff;
+  /* color: black; */
   display: inline;
+  font-size: 18px;
 }
+
+h4{
+  font-family: "Montserrat", sans-serif;
+}
+
 
 /*start of main body content */
 
@@ -29,22 +37,22 @@ h2 {
 
 /* start of header */
 #headerContainer {
-  width: 100%;
   height: 60px;
-  background-color: #100535;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'IM Fell Double Pica', serif;
   line-height: 60px;
-  padding: 20px;
-  color: #d12;
+  padding: 10px;
   display: inline-block;
   clear: both;
+  background-color: #0072ff;
+  background-image: url(../images/cloud.svg);
+  background-repeat: no-repeat;
+  /* color: white !important; */
 }
-/* end of header */
 
-/* end of headerr */
-/* start of inputr */
-
-
+#headerlogo{
+  height: 80%;
+  max-height: 40px;
+}
 
 #dataInput {
   display: flex;
@@ -53,86 +61,107 @@ h2 {
   background-color: black;
   flex-wrap: wrap;
   align-items: stretch;
-  /* justify-content: space-evenly; */
-  background-color: bisque;
+  background-color: orange;
+  padding: 10px;
 }
 
-.dataInputChild{
+.dataInputChild {
   padding: 5px;
-  padding-top: 5px;
   height: 30px;
-  
   color: #000000;
-  /* text-align: center; */
   flex: 1;
   min-width: 150px;
   font-size: 12px;
-  
-  margin: 10px;
-  
+  margin: 0px;
 }
 
 #convertButton {
   cursor: pointer;
   flex: 1;
-  background-color: #d12;
-  /* height: 100%; */
+  background-color: crimson;
+  height: 108px;
+  border-radius: 0px 5px 5px 0px;
+  border-color: #000000;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.3), inset 0px 1px 0px rgba(255,255,255,0.25);
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#convertButton:hover{
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.3), inset 0px 0px 0px rgba(255,255,255,0.25);
+  transition: 0.2s;
+}
+
+#convertButton:hover img{
+  transform: rotate(90deg);
+  transition: 0.2s
+}
+
+#convertButton img{
+  transform: rotate(0deg);
+  transition:0.2s
+}
+
+#convertButtonImage{
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #dataInputTextArea {
   box-sizing: border-box; /* fit parent width */
-  /* height: 100%; */
   resize: none;
   flex: 5;
-  /* justify-content: center; */
-  /* width: 80%; */
   clear: both;
   outline: none;
   min-height: 120px;
   background-color: white;
+  border-radius: 5px 0px 0px 5px;
 }
 
-#dataInputTestArea textarea{
+#dataInputTestArea textarea {
   text-align: left;
-  padding:7px;
+  padding: 7px;
 }
 
 .lineBreak {
   height: 2px;
-  background-color: black;
+  background-color: green;
 }
 
-#displayOptions, #resultsFormat {
+#displayOptions,
+#resultsFormat {
   display: flex;
   justify-content: space-evenly;
   font-family: "Montserrat", sans-serif;
   background-color: black;
   flex-wrap: wrap;
-  height: 40px;
-  
+  min-height: 40px;
 }
 .displayOption {
-  /* background-color: #d12; */
   padding: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
-  /* height: 40px; */
-  /* line-height: 0px; */
   cursor: pointer;
   color: #ffffff;
   text-align: left;
   flex: 1;
   min-width: 150px;
   font-size: 12px;
-  
   border-right-width: 1px;
   border-right-style: solid;
   border-right-color: white;
   line-height: 40px;
-  /* display: inline-block; */
 }
 
-
+.displayOption:last-child{
+  border-right-width: 0px;
+}
 
 .displayOption:hover {
   background-color: #ffffff;
@@ -185,15 +214,15 @@ h2 {
   padding-left: 25px;
 }
 
-input[type=checkbox] {
+input[type="checkbox"], input[type="radio"] {
   position: absolute;
   left: -9999px;
 }
 
-input[type=radio] {
+ /* {
   position: absolute;
   left: -9999px;
-}
+} */
 
 .displayOption label::before {
   content: "";
@@ -223,10 +252,119 @@ input[type=radio] {
   left: 5px;
   top: 3px;
 }
-
-#advertisingArea{
-  background-color: #100535;
-  height: 90px;
+/* to show and hide the tickes on the checkboxes and radio  */
+.displayOption input[type="checkbox"] + label::after, .displayOption input[type="radio"] + label::after {
+  content: none;
 }
 
+.displayOption input[type="checkbox"]:checked + label::after,.displayOption input[type="radio"]:checked + label::after {
+  content: "";
+}
 
+.displayOption input[type="checkbox"]:checked + label,.displayOption input[type="radio"]:checked + label{
+  color: red;
+}
+
+#advertisingContainer {
+  background-color: green;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#displayoptionsnote, #resultoptionsnote{
+  height:50%;
+  width: 70%;
+  background-color: orange;
+  margin:5px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  line-height: 50%;
+}
+
+#resultoptionsnote{
+  align-self:flex-end;
+}
+
+#displayoptionsnote:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: orange;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+#resultoptionsnote:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: orange;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+#blurb{
+  font-family: "Montserrat", sans-serif;
+  padding:20px;
+}
+#airlineTailImage{
+max-width: 82px;
+display: flex;
+/* min-height: 82px; */
+align-items: center;
+justify-content: center;
+}
+
+#airlineTailImageHolder img{
+  /* align-items: center; */
+  /* background-color: #ec9a29; */
+  }
+
+#airlineTailImageHolder{
+  /* float:left; */
+  /* margin:10px; */
+  /* height:30px; */
+  width: 82px;
+  /* width:82px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* background-color: white; */
+  margin-right:10px;
+  align-items: center;
+
+}
+
+#flightInfoHolder{
+  background-color: #fafafa;
+  padding: 10px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  display: flex;
+}
+#flightInfoHolder p, h4{
+  display: inline;
+  /* margin:30px; */
+}
+
+#airlineTextHolder{
+  /* float:left; */
+  /* background-color: aquamarine; */
+}

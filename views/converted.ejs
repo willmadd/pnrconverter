@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/nav.css" />
-    <!-- <script defer src="./js/functions.js"></script>might not need this line -->
+    <!-- <script defer src="./js/functions.js"></script> -->
     <script defer src="/js/frontend.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica" rel="stylesheet">
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107272376-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -24,8 +25,6 @@
 </head>
 
 <body>
-
-
     <div id="boxcontainer">
         <div class='box'>
             <img id="homeImage" src="images/plane.svg" height="50" width="50">
@@ -45,17 +44,19 @@
             <p>Feedback</p>
         </div>
         <div class='box'>
-                <img id="blogImage" src="images/map.svg" height="50" width="50">
-                <p>Blog</p>
+            <img id="blogImage" src="images/map.svg" height="50" width="50">
+            <p>Blog</p>
+        </div>
+
+        <div class='box'>
+                <img id="apiImage" src="images/api.svg" height="50" width="50">
+                <p>API</p>
             </div>
-                    <div class='box'>
-                            <img id="apiImage" src="images/api.svg" height="50" width="50">
-                            <p>API</p>
-                        </div>
-            <div class='box'>
-                    <img id="languageImage" src="images/photol.svg" height="50" width="50">
-                    <p>Language</p>
-                </div>
+
+        <div class='box'>
+            <img id="languageImage" src="images/photol.svg" height="50" width="50">
+            <p>Language</p>
+        </div>
     </div>
 
     <div id="mainBodyContent">
@@ -77,15 +78,13 @@
             <div id="displayOptions">
                 <div class="displayOption" id="showAirLineName">
                     <input type="checkbox" name="airlinename" id="airlinenameInput" onchange="document.getElementById('maininput').submit()">
-                        <label for="airlinenameInput">
- 
-                    Show Airline Name
-                </label>
+                    <label for="airlinenameInput">Show Airline Name</label>
+
+                    <!-- <p>Show Airline Name</p> -->
                 </div>
                 <div class="displayOption" id="showCabin">
                     <input type="checkbox" name="showcabin" id="showcabinInput" onchange="document.getElementById('maininput').submit()">
-                    <label for="showcabinInput">
-                    Show Cabin</label>
+                    <label for="showcabinInput">Show Cabin</label>
                 </div>
                 <div class="displayOption" id="flightDuration">
                     <input type="checkbox" name="duration" id="durationInput" onchange="document.getElementById('maininput').submit()">
@@ -93,8 +92,7 @@
                 </div>
                 <div class="displayOption" id="showDistance">
                     <input type="checkbox" name="distance" id="distanceInput" onchange="document.getElementById('maininput').submit()">
-                    <label for="distanceInput">
-                    Show Distance</label>
+                    <label for="distanceInput">Show Distance</label>
                 </div>
                 <div class="displayOption" id="hourClock">
                     <input type="checkbox" name="timeformat" id="timeformatInput" onchange="document.getElementById('maininput').submit()">
@@ -140,15 +138,15 @@
                         <input type="radio" name="resultformat" value="twolinesreordered" id="resultformat_1" onchange="document.getElementById('maininput').submit()">
                         <label for="resultformat_1"> Two Lines Reordered</label>
                     </div>
-                    <div class="displayOption" id="threeLines">
+                    <div class="displayOption" id="threelines">
                         <input type="radio" name="resultformat" value="threelines" id="resultformat_2" onchange="document.getElementById('maininput').submit()">
                         <label for="resultformat_2"> Three Lines</label>
                     </div>
-                    <div class="displayOption" id="threeLinesReordered">
+                    <div class="displayOption" id="threelinesreordered">
                         <input type="radio" name="resultformat" value="threelinesreordered" id="resultformat_3" onchange="document.getElementById('maininput').submit()">
                         <label for="resultformat_3">Three Lines Reordered</label>
                     </div>
-                    <div class="displayOption" id="table">
+                    <div class="displayOption" id="tableoutput">
                         <input type="radio" name="resultformat" value="tableoutput" id="resultformat_4" onchange="document.getElementById('maininput').submit()">
                         <label for="resultformat_4">Table</label>
                     </div>
@@ -158,37 +156,55 @@
         </form>
         <!-- <div class="lineBreak"></div> -->
         <div id="blurb">
-            <h1>The Clearest Free Flight itinerary Converter on the Web</h1>
-            <h3> What Is PNR Converter?</h3>
-            <p>PNR Converter is a free tool specifically designed for travel agents who're sick of wasting their valuable
-                time converting the raw output of their GDS, be it Sabre, Amadeus, Galileo or Smartpoint to anything resembling
-                a readable format. With PNR Converter you can create beautiful, customer friendly flight itineraries with
-                the click of a button. Not only is PNR converter the most advanced, flexible way to convert PNRs anywhere
-                on the web, it's also completely free! Copy and paste content directly from your GDS into PNR Converter and
-                in seconds it will decoded, creating a fully customisable, customer friendly itinerary that can be sent to
-                Outlook or Mail, or copied to clipboard with the click of a button. With the ability customise your results
-                to show flight duration, flight distance, cabin and the airline name, PNR converter gives you the best flight
-                itinerary converter on the web. We regularly update our database to ensure that all information is up to
-                date and acurate. On top of this we have carefully formatted each airport name to display in a clear, customer
-                friendly format.
-            </p>
-            <h3>With PNR Converter you can decode this...</h3>
-            <img src="./images/smartpoint.jpg">
-            <h3>...into this...</h3>
+
+            <% processedFlight.forEach(flight => { %>
+                <div id="flightInfoHolder">
+                    <div id="airlineTailImageHolder">
+                        <img src="/images/airlines/<%= flight.iatacode.toLowerCase()%>.svg" id="airlineTailImage">
+                        </div>
+
+                    <div id="airlineTextHolder">
+                        <h4>
+                            <%= flight.formattedDepTime.nice %> -
+                                <%= flight.airlineName %>
+                                    <%= flight.flightNo %> -
+                                        <%= flight.newFlightDuration.hours %>h
+                                            <%= flight.newFlightDuration.minutes %>m -
+                                                <%= flight.flightDistance.miles %> Miles
+                        </h4>
+                        <br/>
+                        <p>
+                            From
+                            <%= flight.departure.airportName %>
+                                <%= flight.departure.city %>
+                                    (<%= flight.departure.iataCode %>) at <%=flight.formattedDepTime.time12 %>
+                        </p>
+                        <br/>
+                        <p>
+                            To
+                            <%= flight.arrival.airportName %>
+                                <%= flight.arrival.city %>
+                                    (<%= flight.arrival.iataCode %>) at <%=flight.formattedArrTime.time12 %>
+                        </p>
+                    </div>
+                </div>
+                -------Transit Time-------
+                
+                    <% });%>
+
         </div>
 
-
-        </div>
-
-
-
+<!-- 
+        <script>
+                alert(document.cookie);
+                        </script> -->
 
 
 
 </body>
 <script>
         function check() {
-            document.getElementById("timeformatInput").checked = true;
+            document.getElementById("durationInput").checked = true;
 
         }
         check();
