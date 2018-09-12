@@ -26,9 +26,19 @@ if(airlineNameCookie === 'on'){
     document.getElementById('airlinenameInput').checked = true;
 }
 
+
+let airlineLogoCookie = document.cookie.replace(/(?:(?:^|.*;\s*)showLogo\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+if(airlineLogoCookie === 'on'){
+    document.getElementById('showlogoInput').checked = true;
+}
+
 let showCabinCookie = document.cookie.replace(/(?:(?:^|.*;\s*)showCabin\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-if(showCabinCookie === 'on'){
-    document.getElementById('showcabinInput').checked = true;
+if(showCabinCookie === 'off'){
+    document.getElementById('cabinoff').checked = true;
+}else if(showCabinCookie === 'cabin'){
+    document.getElementById('cabincabin').checked = true;
+}else{
+    document.getElementById('cabinclass').checked = true;
 }
 
 let showDurationCookie = document.cookie.replace(/(?:(?:^|.*;\s*)duration\s*\=\s*([^;]*).*$)|^.*$/, "$1");
@@ -37,8 +47,12 @@ if(showDurationCookie === 'on'){
 }
 
 let showDistanceCookie = document.cookie.replace(/(?:(?:^|.*;\s*)distance\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-if(showDistanceCookie === 'on'){
-    document.getElementById('distanceInput').checked = true;
+if(showDistanceCookie === 'km'){
+    document.getElementById('distancekm').checked = true;
+}else if(showDistanceCookie === 'miles'){
+    document.getElementById('distancemiles').checked = true;
+}else{
+    document.getElementById('distanceoff').checked = true;
 }
 
 let timeFormatCookie = document.cookie.replace(/(?:(?:^|.*;\s*)timeFormat\s*\=\s*([^;]*).*$)|^.*$/, "$1");
@@ -55,4 +69,9 @@ if(quoteHeaderCookie === 'on'){
 let transitTimeCookie = document.cookie.replace(/(?:(?:^|.*;\s*)transitTime\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 if(transitTimeCookie === 'on'){
     document.getElementById('transittimeInput').checked = true;
+}
+
+let opertedByCookie = document.cookie.replace(/(?:(?:^|.*;\s*)operatedBy\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+if(opertedByCookie === 'on'){
+    document.getElementById('operatedbyInput').checked = true;
 }

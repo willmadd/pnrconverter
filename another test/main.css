@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+margin: 0px;
+padding: 0px;
+display: flex;
+align-content: stretch;
+height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+nav{
+    background-color: aqua;
+    width: 80px;
+    height: 100%;
+
+}
+
+main{
+    background: yellow;
+    width: 100%
+}
+
+header{
+    height: 100px;
+    background-color: teal;
+}
+
+#controls{
+    background: tomato;
+    width:200px;
+
+}
+
+#notnav{
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#notheader{
+    background: white;
+    flex: 1;
+    display: flex;
+    /* align-self: flex-end; */
+    /* margin-bottom: auto; */
+}

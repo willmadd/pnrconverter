@@ -12,7 +12,7 @@ exports.getAirlineName = (flightInfo, index) => {
 
 exports.getFlightNo = flightInfo => {
   let regex = /\d+/g;
-  return Number(flightInfo.match(regex)[0]).toString();
+  return Number(flightInfo.slice(2).match(regex)[0]).toString();
 };
 
 function getbookingClass(flightInfo) {
@@ -27,20 +27,18 @@ exports.getbookingClass = flightInfo => {
   if (!result) {
     return undefined;
   }
-  return result[0].trim();
-  // return flightInfo;
+
+  return result[0].replace(/[0-9]+/, "").trim();
 };
 
 exports.getDepartureDate = flightInfo => {
+  // console.log(flightInfo)
   if (flightInfo === undefined) {
     return;
   }
   let regex = /[0-9]+((JAN)|(FEB)|(MAR)|(APR)|(MAY)|(JUN)|(JUL)|(AUG)|(SEP)|(OCT)|(NOV)|(DEC))/;
-  // console.log(flightInfo+'>>>>>>')
   let date = flightInfo.match(regex)[0].trim();
-  // console.log(date+'<<<<<');
   return date;
-  // return flightInfo;
 };
 
 exports.getArrivalDate = flightInfo => {
@@ -50,7 +48,6 @@ exports.getArrivalDate = flightInfo => {
     return flightInfo.match(regex)[1].trim();
   } else if (flightInfo.match(regex).length === 1)
     return flightInfo.match(regex)[0].trim();
-  // return arrivalDate;
 };
 
 exports.getDepartureTime = flightInfo => {
@@ -73,7 +70,6 @@ exports.getDepartureTime = flightInfo => {
   }
 
   let forTime = usFormattedTimes.map(time => {
- 
     return (
       time.slice(0, -3) +
       ":" +
@@ -106,14 +102,6 @@ exports.getArrivalTime = flightInfo => {
   }
 
   let forTime = usFormattedTimes.map(time => {
-    // console.log(
-    //   time.slice(0, -3) +
-    //     ":" +
-    //     time
-    //       .slice(-3)
-    //       .replace("P", "PM")
-    //       .replace("A", "AM")
-    // );
     return (
       time.slice(0, -3) +
       ":" +
@@ -180,6 +168,9 @@ exports.getAirportInfo = (
 };
 
 exports.formatDate = (date, time, flightLine) => {
+  if (!time) {
+    return;
+  }
 
   let formattedDate;
   let s;
@@ -237,9 +228,7 @@ exports.formatDate = (date, time, flightLine) => {
     " " +
     s.format("date-ordinal") +
     " " +
-    s.format("month-short") +
-    " " +
-    s.format("year");
+    s.format("month-short");
   twelveHoursTime = s.format("time-12h");
   twentyFourHoursTime = s.format("time-h24");
   spaceTime =
@@ -312,57 +301,84 @@ exports.getFlightDuration = (
   // console.log("here");
   return { hours: e.since(d).diff.hours, minutes: e.since(d).diff.minutes };
 };
-exports.getTransitTime = (
-  arrivalDate,
-  arrivalTime,
-  nextFlightDepartureDate,
-  nextFlightDepartureTime
-) => {
-  if (arrivalDate === undefined || nextFlightDepartureDate === undefined) {
-    return "xxx";
+
+exports.newGetTransitTime = (arrivalDate, departureTime, departureDate) => {
+  if (!departureTime) {
+    return;
   }
-  // if (nextFlightDepartureDate === undefined){return};
-  let arrivalDateString =
-    arrivalDate.slice(2) +
-    " " +
-    arrivalDate.slice(0, 2) +
-    ", " +
-    new Date().getFullYear().toString() +
-    " " +
-    arrivalTime.slice(0, 2) +
-    ":" +
-    arrivalTime.slice(2) +
-    ":00";
 
-  let nextFlightDepartureDateString =
-    nextFlightDepartureDate.slice(2) +
-    " " +
-    nextFlightDepartureDate.slice(0, 2) +
-    ", " +
-    new Date().getFullYear().toString() +
-    " " +
-    nextFlightDepartureTime.slice(0, 2) +
-    ":" +
-    nextFlightDepartureTime.slice(2) +
-    ":01";
+  let d = spacetime(arrivalDate.spaceTime);
+  let e = spacetime(departureTime.spaceTime);
+  console.log(e.since(d).diff);
 
-  nextFlightDepartureDateString = nextFlightDepartureDateString.replace(
-    "SEP",
-    "SEPT"
-  );
-  arrivalDateString = arrivalDateString.replace("SEP", "SEPT");
-
-  // console.log(departureDateString);
-  let d = spacetime(arrivalDateString);
-  let e = spacetime(nextFlightDepartureDateString);
-  // console.log(e.since(d).diff);
-  return {
-    months: e.since(d).diff.months,
-    days: e.since(d).diff.days,
-    hours: e.since(d).diff.hours,
-    minutes: e.since(d).diff.minutes
-  };
+  if (
+    e.since(d).diff.days > 0 ||
+    e.since(d).diff.months > 0 ||
+    e.since(d).diff.years > 0
+  ) {
+    return "";
+  } else {
+    return (
+      "-----------Transit Time: " +
+      e.since(d).diff.hours +
+      "h " +
+      e.since(d).diff.minutes +
+      "m-----------"
+    );
+  }
 };
+
+// exports.getTransitTime = (
+//   arrivalDate,
+//   arrivalTime,
+//   nextFlightDepartureDate,
+//   nextFlightDepartureTime
+// ) => {
+//   if (arrivalDate === undefined || nextFlightDepartureDate === undefined) {
+//     return "xxx";
+//   }
+//   // if (nextFlightDepartureDate === undefined){return};
+//   let arrivalDateString =
+//     arrivalDate.slice(2) +
+//     " " +
+//     arrivalDate.slice(0, 2) +
+//     ", " +
+//     new Date().getFullYear().toString() +
+//     " " +
+//     arrivalTime.slice(0, 2) +
+//     ":" +
+//     arrivalTime.slice(2) +
+//     ":00";
+
+//   let nextFlightDepartureDateString =
+//     nextFlightDepartureDate.slice(2) +
+//     " " +
+//     nextFlightDepartureDate.slice(0, 2) +
+//     ", " +
+//     new Date().getFullYear().toString() +
+//     " " +
+//     nextFlightDepartureTime.slice(0, 2) +
+//     ":" +
+//     nextFlightDepartureTime.slice(2) +
+//     ":01";
+
+//   nextFlightDepartureDateString = nextFlightDepartureDateString.replace(
+//     "SEP",
+//     "SEPT"
+//   );
+//   arrivalDateString = arrivalDateString.replace("SEP", "SEPT");
+
+//   // console.log(departureDateString);
+//   let d = spacetime(arrivalDateString);
+//   let e = spacetime(nextFlightDepartureDateString);
+//   // console.log(e.since(d).diff);
+//   return {
+//     months: e.since(d).diff.months,
+//     days: e.since(d).diff.days,
+//     hours: e.since(d).diff.hours,
+//     minutes: e.since(d).diff.minutes
+//   };
+// };
 
 exports.getFlightDistance = (
   departureLongitude,
@@ -390,26 +406,91 @@ exports.getFlightDistance = (
   return { miles: Math.round(distance), km: Math.round(distance * 1.60934) };
 };
 
-exports.checkLandingDay=(arrTimeObject, depTimeObject)=>{
-// console.log('funtion actiavted');
-// console.log(arrTimeObject);
-// console.log(depTimeObject);
+exports.checkLandingDay = (arrTimeObject, depTimeObject) => {
+  if (arrTimeObject.nice !== depTimeObject.nice) {
+    let time = spacetime(arrTimeObject.spaceTime);
+    arrTimeObject.time12 =
+      arrTimeObject.time12 +
+      " (on " +
+      time.format("day-short") +
+      " " +
+      time.format("date-ordinal") +
+      " " +
+      time.format("month-short") +
+      ")";
+  }
 
-if(arrTimeObject.nice !==depTimeObject.nice){
-  // console.log('no match');
-  let time = spacetime(arrTimeObject.spaceTime)
-  arrTimeObject.time12 = arrTimeObject.time12+" (on "+ time.format("day-short") +
-  " " +
- time.format("date-ordinal") +
-  " " +
- time.format("month-short")+")"
-}
+  return arrTimeObject;
+};
 
-return arrTimeObject;
-}
+exports.sentanceFormat = line => {
+  return line
+    .split(" ")
+    .map(word => {
+      return word[0].toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+};
 
-exports.newGetTransitTime=(arrivalDate, departureTime, departureDate)=>{
-  // console.log(arrivalDate.spaceTime);
-  // console.log(departureDate);
+exports.getOperatedBy = line => {
+  let regex = /Operated\sBy\s(.*)/;
+  if (line.match(regex)) {
+    return "(" + line.match(regex)[0] + ")";
+  } else {
+    return "";
+  }
+};
 
-}
+exports.formatLocation = line => {
+  if (line.airportName.split(" ")[0].toLowerCase() !== line.city.toLowerCase()) {
+    return line.airportName + ", " + line.city + " (" + line.iataCode + "),";
+    //  ;cityAddon = ", " + line.city;
+  } else {
+    return line.airportName + " (" + line.iataCode + "),";
+  }
+};
+
+  exports.firstLine = (
+    optionsObject,
+    depDate,
+    airlineName,
+    flightNo,
+    flightDuration,
+    classInfo,
+    distance,
+    operatedBy
+  ) => {
+    return (
+      depDate.nice +
+      " - " +
+      (optionsObject.airlineName !== undefined
+        ? airlineName.name
+        : airlineName.class) +
+      " " +
+      flightNo +
+      (optionsObject.showcabin === "class" ? " " + classInfo.class : " ") +
+      (optionsObject.operatedby !== undefined ? " " + operatedBy : "") +
+      " " +
+      (optionsObject.showcabin === "cabin" ? " - " + classInfo.cabin : "") +
+      " " +
+      (optionsObject.duration !== undefined
+        ? "- " + flightDuration.hours + "h " + flightDuration.minutes + "m "
+        : "") +
+      (optionsObject.distance === "miles"
+        ? "- " + distance.miles + " miles"
+        : optionsObject.distance === "km"
+          ? "- " + distance.km + " km "
+          : "")
+    );
+  };
+
+
+exports.timeCheck = (optionsObject, time) => {
+  if (optionsObject.timeFormat === "on") {
+    return time.time12;
+  } else if (time.time24.length === 4) {
+    return "0" + time.time24;
+  } else {
+    return time.time24;
+  }
+};

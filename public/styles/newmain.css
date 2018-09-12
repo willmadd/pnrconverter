@@ -1,0 +1,480 @@
+body{
+  background-color: #f9f9f9;
+margin: 0px;
+padding: 0px;
+display: flex;
+align-content: stretch;
+height: 100%;
+}
+
+html{
+  /* height: 100%; */
+}
+
+nav{
+  background-color: #264254;
+  width: 70px;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+h1, h3{
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+main{
+  background: #f9f9f9;
+  width: 100%
+}
+
+header{
+  height: 60px;
+  line-height: 36px;
+  padding: 10px;
+/* display: inline; */
+  background-color: #66aefc;
+  background-image: url(../images/cloud.svg), url(../images/sun.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: left, right;
+align-items: baseline;
+}
+
+header h1{
+  margin-right: 10px;
+}
+
+fieldset{
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+
+#controls{
+  background: #264254;
+  width:250px;
+  border-left: 1px solid #dadfe3;
+  color:#f9f9f9;
+
+}
+
+#notnav{
+  width: 100%;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#notheader{
+  background: white;
+  flex: 1;
+  display: flex;
+}
+
+
+
+
+
+.box {
+  width: 50px;
+  height: 65px;
+  display: flex;
+  margin: 10px;
+  background-color: #264254;
+  transition: 0.5s;
+  color: aliceblue;
+  justify-content: center;
+  line-height: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.box:hover {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+
+
+.box img {
+  background-color: white;
+  clear: both;
+  display: block;
+}
+
+nav .box img {
+  background-color: white;
+  transition: 0.5s;
+}
+
+nav:hover .box #homeImage {
+  background-color: #FEF5B8;
+  transition: 0.5s;
+}
+
+nav:hover .box #aboutUsImage {
+  background-color: #D8ECCE;
+  transition: 0.5s;
+}
+
+nav:hover .box #suggestionsImage {
+  background-color: #FFD8C1;
+  transition: 0.5s;
+}
+
+nav:hover .box #howItWorks {
+  background-color: #E2DEF9;
+  transition: 0.5s;
+}
+
+nav:hover .box #blogImage {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+nav:hover .box #languageImage {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+nav:hover .box #apiImage {
+  background-color: crimson;
+  transition: 0.5s;
+}
+
+nav .box p {
+  font-size: 10px;
+  display: inline;
+  margin-left: -300px;
+  transition:0.5s;
+}
+
+nav:hover .box p {
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.box img:hover .box p {
+  font-size: 36px;
+  transition: 0.5s;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  background-color: #264254;
+  align-content: stretch;
+  /* min-height: 100%; */
+
+}
+
+#headerlogo{
+  /* min-height: 80%; */
+  max-height: 40px;
+}
+
+
+
+#dataInput {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background-color: #ebeef0;
+  padding: 10px;
+  border-bottom: 1px solid #dadfe3;
+}
+
+.dataInputChild {
+  padding: 5px;
+  height: 30px;
+  color: #000000;
+  flex: 1;
+  min-width: 150px;
+  font-size: 12px;
+  margin: 0px;
+}
+
+#convertButton {
+  cursor: pointer;
+  flex: 1;
+  background-color: #3abc82;
+  height: 108px;
+  border-radius: 0px 5px 5px 0px;
+  border-color: #000000;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.3), inset 0px 1px 0px rgba(255,255,255,0.25);
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#convertButton:hover{
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.3), inset 0px 0px 0px rgba(255,255,255,0.25);
+  transition: 0.2s;
+}
+
+#convertButton:hover img{
+  transform: rotate(90deg);
+  transition: 0.2s
+}
+
+#convertButton img{
+  transform: rotate(0deg);
+  transition:0.2s
+}
+
+#convertButtonImage{
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dataInputTextArea {
+  box-sizing: border-box; /* fit parent width */
+  resize: none;
+  flex: 5;
+  clear: both;
+  outline: none;
+  min-height: 120px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#dataInputTestArea textarea {
+  text-align: left;
+  padding: 7px;
+}
+
+#controls h3{
+  text-align: center;
+}
+
+#controls p {
+
+}
+
+.controlbreak{
+  width: 90%;
+  height: 1px;
+  background-color: #dadfe3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:4px;
+  margin-bottom: 4px;
+}
+
+.displayOption{
+  border: 1px solid darkgreen;
+  padding: 5px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Noto Serif JP', sans-serif;
+  border-radius:5px;
+  background-color: green;
+  font-size:12px;
+  margin-top:3px;
+  cursor: pointer;
+}
+
+#taskbuttonholder{
+  /* background-color: #3abc82; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom:10px;
+}
+
+.tasks{
+  border: 1px solid darkgreen;
+  background-color: green;
+  padding:4px;
+  border-radius: 3px;
+  color: white;
+  margin-left:5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+#advertisingArea{
+  width: 100%;
+  border-bottom: 1px solid #dadfe3;
+  display: flex;
+  /* flex-direction: column; */
+justify-content: center;
+}
+
+#advertisingArea img{
+  margin:10px;
+}
+
+#blurb{
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+  padding:10px;
+}
+
+#blurb h1{
+  text-align: center;
+}
+
+
+#airlineTailImage{
+  max-width: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+
+  #airlineTailImageHolder{
+
+    width: 82px;
+    display: flex;
+    margin-right:10px;
+    align-items: center;
+  
+  }
+  
+  #flightInfoHolder{
+    background-color: #fafafa;
+    padding-left: 10px;
+    /* margin-bottom:10px; */
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #000000;
+    display: flex;
+  }
+  #flightInfoHolder p, h4{
+    display: inline;
+  }
+
+.transittimetext{
+  color:gray;
+  margin-left:100px;
+  font-size: 12px;
+  /* display: inline; */
+}
+
+
+  /* .displayOption:last-child{
+    border-right-width: 0px;
+  }
+  
+  .displayOption:hover {
+    background-color: #ffffff;
+    color: black !important;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #showAirLineName {
+    color: blue;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #showCabin {
+    color: darkgreen;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #flightDuration {
+    color: purple;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #showDistance {
+    color: orange;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #hourClock {
+    color: darkgreen;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #showCabin {
+    color: orange;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #showTitle {
+    color: purple;
+    transition: 0.5s;
+  }
+  
+  #displayOptions:hover #transitTime {
+    color: blue;
+    transition: 0.5s;
+  }
+  
+  .displayOption label {
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+  
+   /* {
+    position: absolute;
+    left: -9999px;
+  } */
+  
+  /* .displayOption label::before {
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 1px solid;
+    margin-right: 5px;
+    margin-bottom: -3px;
+    border-radius: 0px;
+    position: absolute;
+    left: 3px;
+    top: 0px;
+  }
+  
+  .displayOption label::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 8px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    color: #ec9a29;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 5px;
+    top: 3px;
+  }
+  /* to show and hide the tickes on the checkboxes and radio  */
+  /* .displayOption input[type="checkbox"] + label::after, .displayOption input[type="radio"] + label::after {
+    content: none;
+  }
+  
+  .displayOption input[type="checkbox"]:checked + label::after,.displayOption input[type="radio"]:checked + label::after {
+    content: "";
+  }
+  
+  .displayOption input[type="checkbox"]:checked + label,.displayOption input[type="radio"]:checked + label{
+    color: red;
+  } */

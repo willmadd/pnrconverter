@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Easy PNR Converter &amp; Decoder- Flight Itinerary Converter for Galileo, Smartpoint, Amadeus &amp; Sabre
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/newmain.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script defer src="/js/frontend.js"></script>
+    <meta name="description" content="PNR Itinerary converter and decoder for Galileo, Smartpoint, Amadeus or Sabre. Convert your GDS itineraries into a customer friendly, readable format">
+    <meta name="keywords" content="PNR, ITINERARY, TRANSLATOR, GDS, AMADEUS, GALILEO, SMARTPOINT, SABRE, DECODE">
+    <meta name="author" content="PNR Converter">
+
+</head>
+
+<body>
+    <nav>
+        <div class='box'>
+            <img id="homeImage" src="images/plane.svg" height="50" width="50">
+            <p>Home</p>
+        </div>
+        <div class='box'>
+            <img id="howItWorks" src="images/howitworks.svg" height="50" width="50">
+            <p>How To</p>
+        </div>
+
+        <div class='box'>
+            <img id="aboutUsImage" src="images/aboutus.svg" height="50" width="50">
+            <p>About Us</p>
+        </div>
+        <div class='box'>
+            <img id="suggestionsImage" src="images/suggestions.svg" height="50" width="50">
+            <p>Feedback</p>
+        </div>
+        <div class='box'>
+            <img id="blogImage" src="images/map.svg" height="50" width="50">
+            <p>Blog</p>
+        </div>
+        <div class='box'>
+            <img id="apiImage" src="images/api.svg" height="50" width="50">
+            <p>API</p>
+        </div>
+        <div class='box'>
+            <img id="languageImage" src="images/photol.svg" height="50" width="50">
+            <p>Language</p>
+        </div>
+    </nav>
+    <div id="notnav">
+        <header>
+
+            <a href="/"><img src="./images/plane2.svg" id="headerlogo" height="120" width="120"></a>
+            <h1>PNR Converter </h1>
+            <h3> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h3>
+        </header>
+
+        <form id="notheader" action="/" method="post" name="maininput">
+            <main>
+
+                <div id="dataInput">
+                    <textarea name="dataInput" class="dataInputChild" id="dataInputTextArea" placeholder="Copy and paste Galileo, Smartpoint, Amadeus or Sabre itinerary here..."
+                        onfocus="this.placeholder = ''"></textarea>
+                    <!-- <input class="dataInputChild" type="submit" value="Convert" id="convertButton"> -->
+                    <div class="dataInputChild" id="convertButton" onclick="document.getElementById('notheader').submit()">
+                        <h4>Convert</h4><img id="convertButtonImage" src="./images/convert.svg" height="50" width="50">
+                    </div>
+
+                </div>
+
+                <div id="advertisingArea">
+                    <img src="./images/samplead.png" width="728" height="90">
+                </div>
+
+
+                <% if(processedFlight.renderOutput === 'home') { %>
+                <%  include ./partials/welcome.ejs %>
+                <%} else if(processedFlight.renderOutput === 'threelines'){%>
+                <%  include ./partials/threelines.ejs %>
+                <%} else if(processedFlight.renderOutput === 'twolines'){%>
+                <%  include ./partials/twolines.ejs %>
+                <%} else if(processedFlight.renderOutput === 'threelinesreordered'){%>
+                <%  include ./partials/threelinesreordered.ejs %>
+                <%} else if(processedFlight.renderOutput === 'twolinesreordered'){%>
+                <%  include ./partials/twolinesreordered.ejs %>
+                <%} else if(processedFlight.renderOutput === 'table'){%>
+                <%  include ./partials/table.ejs %>
+                <% }%>
+
+
+            </main>
+            <div id="controls">
+                <h3>Display Options:</h3>
+                <div class="controlbreak"></div>
+                <div id="displayOptions">
+                    <div class="displayOption" id="showAirLineName">
+                        <input type="checkbox" name="airlinename" id="airlinenameInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="airlinenameInput">
+
+                            Show Airline Name
+                        </label>
+                    </div>
+                    <div class="displayOption" id="showLogo">
+                        <input type="checkbox" name="showLogo" id="showlogoInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="showlogoInput">
+                            Show Airline logo</label>
+                    </div>
+                    <div class="displayOption" id="showCabin">
+                        <!-- <input type="checkbox" name="showcabin" id="showcabinInput" onchange="document.getElementById('notheader').submit()"> -->
+                        <label for="cabinfieldset">
+                            Show Cabin
+                            <fieldset id="cabinfieldset" onchange="document.getElementById('notheader').submit()" name="distance">
+                                <label>Off
+                                    <input id="cabinoff" type="radio" value="off" name="cabinradio">
+                                </label>
+                                <label>Class
+
+                                    <input id="cabinclass" type="radio" value="class" name="cabinradio">
+                                </label>
+                                <label> Cabin
+
+                                    <input id="cabincabin" type="radio" value="cabin" name="cabinradio">
+                                </label>
+                            </fieldset></label>
+                    </div>
+                    <div class="displayOption" id="flightDuration">
+                        <input type="checkbox" name="duration" id="durationInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="durationInput">Flight Duration</label>
+                    </div>
+                    <div class="displayOption" id="showDistance">
+                        <!-- <input type="checkbox" name="distance" id="distanceInput" onchange="document.getElementById('notheader').submit()"> -->
+                        <label for="distancefiledset">Show Distance
+
+                            <fieldset id="distancefieldset" onchange="document.getElementById('notheader').submit()"
+                                name="distance">
+                                <label>Off
+                                    <input type="radio" id="distanceoff" value="Off" name="distanceradio">
+                                </label>
+                                <label>KM
+
+                                    <input type="radio" id="distancekm" value="km" name="distanceradio">
+                                </label>
+                                <label> Miles
+
+                                    <input type="radio" id="distancemiles" value="miles" name="distanceradio">
+                                </label>
+                            </fieldset>
+
+                        </label>
+                    </div>
+                    <div class="displayOption" id="hourClock">
+                        <input type="checkbox" name="timeformat" id="timeformatInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="timeformatInput">12 Hour Clock</label>
+                    </div>
+                    <div class="displayOption" id="showTitle">
+                        <input type="checkbox" name="quoteheader" id="quoteheaderInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="quoteheaderInput">Show Title</label>
+                    </div>
+                    <div class="displayOption" id="transitTime">
+                        <input type="checkbox" name="transittime" id="transittimeInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="transittimeInput">Transit Time</label>
+                    </div>
+                    <div class="displayOption" id="operatedby">
+                        <input type="checkbox" name="operatedby" id="operatedbyInput" onchange="document.getElementById('notheader').submit()">
+                        <label for="operatedbyInput">Show Operated By</label>
+                    </div>
+                </div>
+                <div class="controlbreak"></div>
+                <h3>Results Format:</h3>
+                <div class="controlbreak"></div>
+                <div id="resultsFormat">
+                    <div class="displayOption" id="twoLines">
+                        <input type="radio" name="resultformat" value="twolines" id="resultformat_0" onchange="document.getElementById('notheader').submit()">
+                        <label for="resultformat_0"> Two Lines</label>
+                    </div>
+                    <div class="displayOption" id="twoLinesReordered">
+                        <input type="radio" name="resultformat" value="twolinesreordered" id="resultformat_1" onchange="document.getElementById('notheader').submit()">
+                        <label for="resultformat_1"> Two Lines Reordered</label>
+                    </div>
+                    <div class="displayOption" id="threeLines">
+                        <input type="radio" name="resultformat" value="threelines" id="resultformat_2" onchange="document.getElementById('notheader').submit()">
+                        <label for="resultformat_2"> Three Lines</label>
+                    </div>
+                    <div class="displayOption" id="threeLinesReordered">
+                        <input type="radio" name="resultformat" value="threelinesreordered" id="resultformat_3"
+                            onchange="document.getElementById('notheader').submit()">
+                        <label for="resultformat_3">Three Lines Reordered</label>
+                    </div>
+                    <div class="displayOption" id="table">
+                        <input type="radio" name="resultformat" value="tableoutput" id="resultformat_4" onchange="document.getElementById('notheader').submit()">
+                        <label for="resultformat_4">Table</label>
+                    </div>
+                </div>
+                <div class="controlbreak"></div>
+
+            </div>
+        </form>
+        <!-- <div id="controls">controls</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+
+
+/* start of nav bar */
+.box {
+  width: 50px;
+  height: 65px;
+  display: flex;
+  margin: 10px;
+  background-color: #264254;
+  transition: 0.5s;
+  color: aliceblue;
+  justify-content: center;
+  line-height: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.box:hover {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+
+
+.box img {
+  background-color: white;
+  clear: both;
+  display: block;
+}
+
+#boxcontainer .box img {
+  background-color: white;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #homeImage {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #aboutUsImage {
+  background-color: darkgreen;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #suggestionsImage {
+  background-color: crimson;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #howItWorks {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #blogImage {
+  background-color: orange;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #languageImage {
+  background-color: purple;
+  transition: 0.5s;
+}
+
+#boxcontainer:hover .box #apiImage {
+  background-color: crimson;
+  transition: 0.5s;
+}
+
+#boxcontainer .box p {
+  font-size: 10px;
+  display: inline;
+  margin-left: -300px;
+  transition:0.5s;
+}
+
+#boxcontainer:hover .box p {
+  transition: 0.5s;
+  margin-left: 0px;
+}
+
+.box img:hover .box p {
+  font-size: 36px;
+  transition: 0.5s;
+}
+
+#boxcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  background-color: #264254;
+  align-content: stretch;
+  /* min-height: 100%; */
+
+}
+
+/* end of nav bar */

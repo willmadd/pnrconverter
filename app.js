@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const {convertItinerary, getApi} = require('./controllers/convertItinerary');
+const {convertItinerary, getApi, showHomePage} = require('./controllers/convertItinerary');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 let session = require('express-session');
@@ -12,7 +12,9 @@ app.use(bodyParser.urlencoded({extended:false}));
 
 app.set('view engine', 'ejs');
 
+app.get('/', showHomePage)
 app.use('/', express.static('public'));
+
 
 app.post('/',convertItinerary);
 app.post('/api/', getApi)
