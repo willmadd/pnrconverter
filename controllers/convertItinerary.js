@@ -1,4 +1,7 @@
 //remember to uninstall momnentjs if not using
+
+const util = require('util')
+
 const {
   getTransitTime,
   getAirlineName,
@@ -18,13 +21,14 @@ const {
   formatTime,
   checkLandingDay,
   newGetTransitTime,
-  createOutput,
+  formatDistance,
   sentanceFormat,
   getOperatedBy,
   firstLine,
   formatLocation,
   timeCheck
 } = require("../js/functions");
+const fs = require("fs");
 
 exports.showHomePage = (req, res, next) => {
   let processedFlight = {};
@@ -54,18 +58,24 @@ exports.convertItinerary = (req, res, next) => {
 
   // set cookies for view options
 
-  res.cookie("airlineName", req.body.airlinename);
-  optionsObject.airlineName = req.body.airlinename;
+  console.log(req.body);
+
+
+  let airlineNameOption = req.body.airlinename
+  res.cookie("airlineName", airlineNameOption);
+  optionsObject.airlineName = airlineNameOption;
 
   let logoOption = req.body.showLogo;
   res.cookie("showLogo", logoOption);
   optionsObject.showLogo = logoOption;
 
-  res.cookie("showCabin", req.body.cabinradio);
-  optionsObject.showcabin = req.body.cabinradio;
+  let cabinOption = req.body.cabinradio;
+  res.cookie("showCabin", cabinOption);
+  optionsObject.showcabin = cabinOption;
 
-  res.cookie("duration", req.body.duration);
-  optionsObject.duration = req.body.duration;
+  let durationOption = req.body.duration;
+  res.cookie("duration", durationOption);
+  optionsObject.duration = durationOption;
 
   res.cookie("distance", req.body.distanceradio);
   optionsObject.distance = req.body.distanceradio;
@@ -76,17 +86,83 @@ exports.convertItinerary = (req, res, next) => {
   res.cookie("quoteHeader", req.body.quoteheader);
   optionsObject.quoteHeader = req.body.quoteheader;
 
-
-  let transitOption = req.body.transittime
+  let transitOption = req.body.transittime;
   res.cookie("transitTime", transitOption);
   optionsObject.transittime = transitOption;
 
-  res.cookie("operatedBy", req.body.operatedby);
-  optionsObject.operatedby = req.body.operatedby;
+  let operatedByOption = req.body.operatedby;
+  res.cookie("operatedBy", operatedByOption);
+  optionsObject.operatedby = operatedByOption;
 
-  flightData = flightData.trim().split("\n");
+  let toWrite = "";
+
+  if (flightData) {
+    toWrite = `
+    -------${new Date()}--${req.ip}-----
+    ${flightData}
+    operatedby: ${operatedByOption}
+    transitTime: ${req.body.transittime}
+    quoteheader: ${req.body.quoteheader}
+    12hours: ${req.body.timeformat}
+    distance: ${req.body.distanceradio}
+    duration: ${durationOption}
+    cabin: ${cabinOption}
+    logo: ${req.body.showLogo}
+    airlineName: ${airlineNameOption}
+
+    `;
+  }
+
+
+
+  let processedFlight = {};
+  processedFlight.airlineNameOption = airlineNameOption;
+  processedFlight.renderOutput = resultsOption;
+  processedFlight.showImage = logoOption;
+  processedFlight.operatedBy = operatedByOption;
+  processedFlight.transit = transitOption;
+  processedFlight.duration = durationOption;
+  processedFlight.cabin = cabinOption;
+  processedFlight.data = [];
+  processedFlight.passengers = []
+
+
+  fs.appendFile("flights-2018.txt", toWrite, "utf8", () => {});
+
+  flightData = flightData.trim().toUpperCase().split("\r\n");
+
+//name extraactor function
+
+flightData.forEach(line => {
+  if (/\b[0-9]{1}[A-Z]{4,}\/\D+\b/.test(line)){
+    line = line.split(/[0-9]\.[0-9]|[0-9]\./).filter(line => line)
+    console.log(line);
+  }
+})
+
+console.log(processedFlight.passengers)
+
+  // preg_match_all('/\b[0-9]{1}[A-Z]{4,}\/\D+\b/', $b, $namematches);
+
+  
+  // if (preg_match('/\b[0-9]{1}[A-Z]{4,}\/\D+\b/', $b) && $namematchflag ==0){
+  //   echo 'Itinerary For<br/><br/>';
+  //   $namematchflag = 1;
+  // }
+  
+  
+  // foreach ($namematches [0] as $name){
+  // $name = preg_replace('/[0-9]/',"",$name);
+  // $name = str_replace('P-',"",$name);
+  // echo $name.'<br/><br/>';	
+  // }
+
+
+
+
 
   flightData = flightData.map(line => {
+    line = line.substring(0,10).replace(/[\*#:]/," ")+line.substring(10);
     return line
       .replace(".", "")
       .trim()
@@ -110,24 +186,21 @@ exports.convertItinerary = (req, res, next) => {
 
   flightData.forEach((line, index) => {
     if (/OPERATED BY\s/.test(line)) {
+      if (/OPERATED BY\s/.test(flightData[index + 1])) {
+        // console.log("detected....");
+        flightData.splice(index + 1, 1);
+      }
+
       flightData[index - 1] =
         flightData[index - 1] + " " + sentanceFormat(line);
       flightData.splice(index, 1);
     }
   });
-  // console.log(flightData)
 
   let departureDestination;
   let arrivalDestination;
 
-  let processedFlight = {};
-  processedFlight.renderOutput = resultsOption;
-  processedFlight.showImage = logoOption;
-processedFlight.transit = transitOption;
-
-  // let processedFlight = {};
-
-  processedFlight.data = [];
+  
 
   let newInfo = flightData.map((flightLine, index) => {
     return getAirlineName(flightLine, index);
@@ -210,6 +283,10 @@ processedFlight.transit = transitOption;
         };
 
         processedFlight.data.push({
+          formattedDistance: formatDistance(
+            optionsObject.distance,
+            flightDistance
+          ),
           flightNo,
           airlineName,
           // iatacode: flightLine.iatacode,
@@ -252,7 +329,11 @@ processedFlight.transit = transitOption;
           hourFormattedDepTime: timeCheck(optionsObject, formattedDepTime),
           hourFormattedArrTime: timeCheck(optionsObject, formattedArrTime)
         });
-        console.log(processedFlight);
+
+
+        // console.log(util.inspect(processedFlight, {showHidden: false, depth: null}))
+
+        // console.log(processedFlight);
       });
       // let output = createOutput(processedFlight, resultsOption);
       res.status(200).render("refresh", { processedFlight });

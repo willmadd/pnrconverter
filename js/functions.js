@@ -38,6 +38,7 @@ exports.getDepartureDate = flightInfo => {
   }
   let regex = /[0-9]+((JAN)|(FEB)|(MAR)|(APR)|(MAY)|(JUN)|(JUL)|(AUG)|(SEP)|(OCT)|(NOV)|(DEC))/;
   let date = flightInfo.match(regex)[0].trim();
+  // console.log(date);
   return date;
 };
 
@@ -177,62 +178,65 @@ exports.formatDate = (date, time, flightLine) => {
 
   if (time.length === 4) {
     formattedDate =
-      date.slice(2) +
-      " " +
-      date.slice(0, 2) +
-      ", " +
-      new Date().getFullYear().toString() +
-      " " +
-      time.slice(0, 2) +
-      ":" +
-      time.slice(2) +
-      ":00";
+    date.slice(2) +
+    " " +
+    date.slice(0, 2) +
+    ", " +
+    new Date().getFullYear().toString() +
+    " " +
+    time.slice(0, 2) +
+    ":" +
+    time.slice(2) +
+    ":00";
     formattedDate = formattedDate.replace("SEP", "SEPT");
     s = spacetime(formattedDate);
   } else {
     formattedDate =
-      date.slice(2) +
-      " " +
-      date.slice(0, 2) +
-      ", " +
-      new Date().getFullYear().toString();
-
+    date.slice(2) +
+    " " +
+    date.slice(0, 2) +
+    ", " +
+    new Date().getFullYear().toString();
+    
     formattedDate = formattedDate.replace("SEP", "SEPT");
     s = spacetime(formattedDate);
     s.time(time);
   }
-
+  
   let now = spacetime(new Date());
-
+  
   if (s.isBefore(now)) {
     s.add(1, "year");
   }
-
+  
   if (
-    /\#[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\+1/.test(flightLine)
-  ) {
-    s.add(1, "day");
-  } else if (
-    /\*[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\+2/.test(flightLine)
-  ) {
-    s.add(2, "day");
-  } else if (
-    /\-[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\-1/.test(flightLine)
-  ) {
-    s.subtract(1, "day");
-  }
-
-  newFDate = s.format("iso");
-  newNiceDate =
-    s.format("day-short") +
-    " " +
-    s.format("date-ordinal") +
-    " " +
-    s.format("month-short");
-  twelveHoursTime = s.format("time-12h");
-  twentyFourHoursTime = s.format("time-h24");
-  spaceTime =
-    s.format("month-short") +
+    /\#[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\+1/.test(flightLine) | /[0-9]{3,4}(A|N|P)\#1/.test(flightLine) | /#[0-9]{3,4}/.test(flightLine)
+    ) {
+      s.add(1, "day");
+    } else if (
+      /\*[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\+2/.test(flightLine)| /\*[0-9]{3,4}/.test(flightLine)
+      ) {
+        s.add(2, "day");
+      } else if (
+        /\-[0-9]{4}\s/.test(flightLine) | /[0-9]{3,4}(A|N|P)\-1/.test(flightLine)
+        ) {
+          s.subtract(1, "day");
+        }
+        
+        newFDate = s.format("iso");
+        newNiceDate =
+        s.format("day-short") +
+        " " +
+        s.format("date-ordinal") +
+        " " +
+        s.format("month-short");
+        twelveHoursTime = s.format("time-12h");
+        twentyFourHoursTime = s.format("time-h24");
+        if (twentyFourHoursTime.length === 4){
+          twentyFourHoursTime = "0"+twentyFourHoursTime
+        }
+        spaceTime =
+        s.format("month-short") +
     " " +
     s.format("date") +
     ", " +
@@ -260,47 +264,47 @@ exports.newGetFlightDuration = (
   return { hours: e.since(d).diff.hours, minutes: e.since(d).diff.minutes };
 };
 
-exports.getFlightDuration = (
-  departureDate,
-  departureTime,
-  departureTimeZone,
-  arrivalDate,
-  arrivalTime,
-  arrivalTimeZone
-) => {
-  let departureDateString =
-    departureDate.slice(2) +
-    " " +
-    departureDate.slice(0, 2) +
-    ", " +
-    new Date().getFullYear().toString() +
-    " " +
-    departureTime.slice(0, 2) +
-    ":" +
-    departureTime.slice(2) +
-    ":00";
+// exports.getFlightDuration = (
+//   departureDate,
+//   departureTime,
+//   departureTimeZone,
+//   arrivalDate,
+//   arrivalTime,
+//   arrivalTimeZone
+// ) => {
+//   let departureDateString =
+//     departureDate.slice(2) +
+//     " " +
+//     departureDate.slice(0, 2) +
+//     ", " +
+//     new Date().getFullYear().toString() +
+//     " " +
+//     departureTime.slice(0, 2) +
+//     ":" +
+//     departureTime.slice(2) +
+//     ":00";
 
-  let arrivalDateString =
-    arrivalDate.slice(2) +
-    " " +
-    arrivalDate.slice(0, 2) +
-    ", " +
-    new Date().getFullYear().toString() +
-    " " +
-    arrivalTime.slice(0, 2) +
-    ":" +
-    arrivalTime.slice(2) +
-    ":01";
+//   let arrivalDateString =
+//     arrivalDate.slice(2) +
+//     " " +
+//     arrivalDate.slice(0, 2) +
+//     ", " +
+//     new Date().getFullYear().toString() +
+//     " " +
+//     arrivalTime.slice(0, 2) +
+//     ":" +
+//     arrivalTime.slice(2) +
+//     ":01";
 
-  departureDateString = departureDateString.replace("SEP", "SEPT");
-  arrivalDateString = arrivalDateString.replace("SEP", "SEPT");
+//   departureDateString = departureDateString.replace("SEP", "SEPT");
+//   arrivalDateString = arrivalDateString.replace("SEP", "SEPT");
 
-  // console.log(departureDateString);
-  let d = spacetime(departureDateString, departureTimeZone);
-  let e = spacetime(arrivalDateString, arrivalTimeZone);
-  // console.log("here");
-  return { hours: e.since(d).diff.hours, minutes: e.since(d).diff.minutes };
-};
+//   // console.log(departureDateString);
+//   let d = spacetime(departureDateString, departureTimeZone);
+//   let e = spacetime(arrivalDateString, arrivalTimeZone);
+//   // console.log("here");
+//   return { hours: e.since(d).diff.hours, minutes: e.since(d).diff.minutes };
+// };
 
 exports.newGetTransitTime = (arrivalDate, departureTime, departureDate) => {
   if (!departureTime) {
@@ -312,18 +316,17 @@ exports.newGetTransitTime = (arrivalDate, departureTime, departureDate) => {
   console.log(e.since(d).diff);
 
   if (
-    e.since(d).diff.days > 0 ||
-    e.since(d).diff.months > 0 ||
-    e.since(d).diff.years > 0
+    e.since(d).diff.days !== 0 ||
+    e.since(d).diff.months !== 0 ||
+    e.since(d).diff.years !== 0
   ) {
     return "";
   } else {
     return (
-      "-----------Transit Time: " +
       e.since(d).diff.hours +
       "h " +
       e.since(d).diff.minutes +
-      "m-----------"
+      "m"
     );
   }
 };
@@ -407,6 +410,7 @@ exports.getFlightDistance = (
 };
 
 exports.checkLandingDay = (arrTimeObject, depTimeObject) => {
+
   if (arrTimeObject.nice !== depTimeObject.nice) {
     let time = spacetime(arrTimeObject.spaceTime);
     arrTimeObject.time12 =
@@ -418,6 +422,17 @@ exports.checkLandingDay = (arrTimeObject, depTimeObject) => {
       " " +
       time.format("month-short") +
       ")";
+
+      arrTimeObject.time24 =
+      arrTimeObject.time24 +
+      " (on " +
+      time.format("day-short") +
+      " " +
+      time.format("date-ordinal") +
+      " " +
+      time.format("month-short") +
+      ")";
+
   }
 
   return arrTimeObject;
@@ -477,9 +492,9 @@ exports.formatLocation = line => {
         ? "- " + flightDuration.hours + "h " + flightDuration.minutes + "m "
         : "") +
       (optionsObject.distance === "miles"
-        ? "- " + distance.miles + " miles"
+        ? "- " + distance.miles + " Miles"
         : optionsObject.distance === "km"
-          ? "- " + distance.km + " km "
+          ? "- " + distance.km + " KM "
           : "")
     );
   };
@@ -494,3 +509,8 @@ exports.timeCheck = (optionsObject, time) => {
     return time.time24;
   }
 };
+
+
+exports.formatDistance = (optionsObject, distance) =>{
+  return distance[optionsObject]+" "+optionsObject
+}

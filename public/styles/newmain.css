@@ -12,7 +12,7 @@ html{
 }
 
 nav{
-  background-color: #264254;
+  background-color: black;
   width: 70px;
   /* height: 100%; */
   display: flex;
@@ -25,7 +25,7 @@ h1, h3{
 }
 
 main{
-  background: #f9f9f9;
+  background: #DDCECD;
   width: 100%
 }
 
@@ -33,8 +33,9 @@ header{
   height: 60px;
   line-height: 36px;
   padding: 10px;
+  color: #EEE5E5;
 /* display: inline; */
-  background-color: #66aefc;
+  background-color: #19647E;
   background-image: url(../images/cloud.svg), url(../images/sun.svg);
   background-repeat: no-repeat;
   display: flex;
@@ -46,6 +47,13 @@ header h1{
   margin-right: 10px;
 }
 
+footer{
+  background-color: #19647E;
+  color: #EEE5E5;
+  text-align: center;
+  padding:10px;
+}
+
 fieldset{
   border:0px;
   margin:0px;
@@ -53,16 +61,18 @@ fieldset{
 }
 
 #controls{
-  background: #264254;
+  background: #37392E;
   width:250px;
   border-left: 1px solid #dadfe3;
   color:#f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
 
 }
 
 #notnav{
   width: 100%;
-  background-color: chartreuse;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -77,104 +87,64 @@ fieldset{
 
 
 
-
-.box {
-  width: 50px;
-  height: 65px;
+#horizonatalnavbar{
+  width: 100%;
+  height: 40px;
+  background-color: #37392E;
   display: flex;
-  margin: 10px;
-  background-color: #264254;
-  transition: 0.5s;
-  color: aliceblue;
+  justify-content: space-around;
+  align-items:stretch;
+  color:#EEE5E5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navmenuitem{
+  /* float:left;  height:40px; */
+  line-height: 30px;
+  font-size:12px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  line-height: 20px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  display: block;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  flex-grow: 1;
+  border-bottom: 3px solid #37392E;
+  /* background-color: blue; */
 }
 
-.box:hover {
-  padding-bottom: 0px;
-  padding-top: 5px;
-}
-
-
-
-.box img {
+.navmenuitem img{
   background-color: white;
-  clear: both;
-  display: block;
+  margin-right:4px;
 }
 
-nav .box img {
-  background-color: white;
-  transition: 0.5s;
-}
-
-nav:hover .box #homeImage {
-  background-color: #FEF5B8;
-  transition: 0.5s;
-}
-
-nav:hover .box #aboutUsImage {
-  background-color: #D8ECCE;
-  transition: 0.5s;
-}
-
-nav:hover .box #suggestionsImage {
-  background-color: #FFD8C1;
-  transition: 0.5s;
-}
-
-nav:hover .box #howItWorks {
-  background-color: #E2DEF9;
-  transition: 0.5s;
-}
-
-nav:hover .box #blogImage {
+#horizonatalnavbar:hover .navmenuitem #homeImage, #horizonatalnavbar:hover .navmenuitem #aboutUsImage {
   background-color: orange;
   transition: 0.5s;
 }
 
-nav:hover .box #languageImage {
-  background-color: purple;
+
+/* #horizonatalnavbar:hover .navmenuitem #apiImage, #horizonatalnavbar:hover .navmenuitem #blogImage {
+  background-color: green;
   transition: 0.5s;
 }
 
-nav:hover .box #apiImage {
-  background-color: crimson;
+#horizonatalnavbar:hover .navmenuitem #howtoImage, #horizonatalnavbar:hover .navmenuitem #languageImage {
+  background-color: #28AFB0;
   transition: 0.5s;
 }
 
-nav .box p {
-  font-size: 10px;
-  display: inline;
-  margin-left: -300px;
-  transition:0.5s;
-}
-
-nav:hover .box p {
+#horizonatalnavbar:hover .navmenuitem #suggestionImage {
+  background-color: #28AFB0;
   transition: 0.5s;
-  margin-left: 0px;
-}
+} */
 
-.box img:hover .box p {
-  font-size: 36px;
-  transition: 0.5s;
-}
+.navmenuitem:hover{
+   /* text-decoration: underline; */
+   transition: 0.2s;
+   border-bottom: 3px solid #28AFB0;
+   
 
-#boxcontainer {
-  display: flex;
-  flex-direction: column;
-  width: 70px;
-  background-color: #264254;
-  align-content: stretch;
-  /* min-height: 100%; */
+ }
 
-}
 
 #headerlogo{
   /* min-height: 80%; */
@@ -190,7 +160,7 @@ nav:hover .box p {
   background-color: black;
   flex-wrap: wrap;
   align-items: stretch;
-  background-color: #ebeef0;
+  background-color: #DDCECD;
   padding: 10px;
   border-bottom: 1px solid #dadfe3;
 }
@@ -208,7 +178,7 @@ nav:hover .box p {
 #convertButton {
   cursor: pointer;
   flex: 1;
-  background-color: #3abc82;
+  background-color: tomato;
   height: 108px;
   border-radius: 0px 5px 5px 0px;
   border-color: #000000;
@@ -227,7 +197,7 @@ nav:hover .box p {
 }
 
 #convertButton:hover img{
-  transform: rotate(90deg);
+  transform: rotate(20deg);
   transition: 0.2s
 }
 
@@ -263,9 +233,7 @@ nav:hover .box p {
   text-align: center;
 }
 
-#controls p {
 
-}
 
 .controlbreak{
   width: 90%;
@@ -277,19 +245,6 @@ nav:hover .box p {
   margin-bottom: 4px;
 }
 
-.displayOption{
-  border: 1px solid darkgreen;
-  padding: 5px;
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Noto Serif JP', sans-serif;
-  border-radius:5px;
-  background-color: green;
-  font-size:12px;
-  margin-top:3px;
-  cursor: pointer;
-}
 
 #taskbuttonholder{
   /* background-color: #3abc82; */
@@ -301,15 +256,19 @@ nav:hover .box p {
 
 .tasks{
   border: 1px solid darkgreen;
-  background-color: green;
-  padding:4px;
+  background-color: tomato;
+  padding:5px;
   border-radius: 3px;
   color: white;
   margin-left:5px;
   margin-right: 5px;
   cursor: pointer;
+  font-size:14px;
 }
 
+.tasks img{
+margin-right: 5px;
+}
 
 #advertisingArea{
   width: 100%;
@@ -317,6 +276,7 @@ nav:hover .box p {
   display: flex;
   /* flex-direction: column; */
 justify-content: center;
+background-color: #DDCECD;
 }
 
 #advertisingArea img{
@@ -326,13 +286,22 @@ justify-content: center;
 #blurb{
   font-family: 'Open Sans', sans-serif;
 font-size: 14px;
-  padding:10px;
+  padding:5px;
+  border: 0px solid black;
+  background-color: #DDCECD;
 }
 
 #blurb h1{
   text-align: center;
 }
 
+.resultscontainer{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  margin:0px;
+  padding:3px;
+}
 
 #airlineTailImage{
   max-width: 82px;
@@ -352,7 +321,7 @@ font-size: 14px;
   }
   
   #flightInfoHolder{
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     padding-left: 10px;
     /* margin-bottom:10px; */
     border-radius: 5px;
@@ -368,77 +337,17 @@ font-size: 14px;
 .transittimetext{
   color:gray;
   margin-left:100px;
-  font-size: 12px;
-  /* display: inline; */
+  font-size: 14px;
 }
 
 
-  /* .displayOption:last-child{
-    border-right-width: 0px;
-  }
-  
-  .displayOption:hover {
-    background-color: #ffffff;
-    color: black !important;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #showAirLineName {
-    color: blue;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #showCabin {
-    color: darkgreen;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #flightDuration {
-    color: purple;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #showDistance {
-    color: orange;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #hourClock {
-    color: darkgreen;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #showCabin {
-    color: orange;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #showTitle {
-    color: purple;
-    transition: 0.5s;
-  }
-  
-  #displayOptions:hover #transitTime {
-    color: blue;
-    transition: 0.5s;
-  }
-  
   .displayOption label {
     position: relative;
-    padding-left: 25px;
   }
+
   
-  input[type="checkbox"], input[type="radio"] {
-    position: absolute;
-    left: -9999px;
-  }
   
-   /* {
-    position: absolute;
-    left: -9999px;
-  } */
-  
-  /* .displayOption label::before {
+  .displayOption label::before {
     content: "";
     display: inline-block;
     height: 12px;
@@ -449,8 +358,8 @@ font-size: 14px;
     margin-bottom: -3px;
     border-radius: 0px;
     position: absolute;
-    left: 3px;
-    top: 0px;
+    left: 5px;
+    top: 7px;
   }
   
   .displayOption label::after {
@@ -463,11 +372,11 @@ font-size: 14px;
     color: #ec9a29;
     transform: rotate(-45deg);
     position: absolute;
-    left: 5px;
-    top: 3px;
+    left: 7px;
+    top: 10px;
   }
   /* to show and hide the tickes on the checkboxes and radio  */
-  /* .displayOption input[type="checkbox"] + label::after, .displayOption input[type="radio"] + label::after {
+  .displayOption input[type="checkbox"] + label::after, .displayOption input[type="radio"] + label::after {
     content: none;
   }
   
@@ -475,6 +384,101 @@ font-size: 14px;
     content: "";
   }
   
+
   .displayOption input[type="checkbox"]:checked + label,.displayOption input[type="radio"]:checked + label{
-    color: red;
-  } */
+    border: 1px solid white;
+    padding: 5px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:5px;
+    background-color: #28AFB0;
+    font-size:12px;
+    margin-top:3px;
+    cursor: pointer;
+    display:inline-block;
+    text-align: center;
+  } 
+
+  input[type="checkbox"], input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .displayOption{
+    display: flex;
+  }
+
+  .displayOption input[type="checkbox"] + label,.displayOption input[type="radio"] + label{
+    border: 1px solid white;
+    padding: 5px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:5px;
+    background-color: #37392E;
+    font-size:12px;
+    margin-top:3px;
+    cursor: pointer;
+    display:inline-block;
+    text-align: center;
+  }
+
+  .displayOption input[type="checkbox"] + label:hover,.displayOption input[type="radio"] + label:hover, .fieldset input[type="radio"] + label:hover{
+    background-color: #19647E;
+    transition: 0.2s;
+
+  }
+
+  .fieldset input[type="radio"] + label{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    margin:5px;
+    cursor: pointer;
+  }
+  .fieldset input[type="radio"]:checked + label{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #28AFB0
+  }
+
+.multioptionscontainer{
+  border: 1px solid white;
+  padding: 5px 5px 10px 5px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+  border-radius:5px;
+  background-color: #37392E;
+  font-size:12px;
+  margin-top:3px;
+  cursor: pointer;
+  display:block;
+  text-align: center;
+  /* clear: both; */
+  }
+
+  .multioptionsbreak{
+    margin-bottom:10px;
+  }
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #64706c;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

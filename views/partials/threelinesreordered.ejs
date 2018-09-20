@@ -1,46 +1,56 @@
 <div id="blurb">
 
         <div id="taskbuttonholder">
-                <button class="tasks">Copy to Clip Board</button>
-                <button class="tasks">Send to Mail</button>
-                <button class="tasks">Select All</button>
+            <div class="tasks"><img src="./images/icons/copyicon.svg" height="18">Copy to Clip Board</div>
+            <div class="tasks" onclick="doMailTo('xxx@xxx.com')"><img src="./images/icons/mailicon.svg" height="18">Send to Mail</div>
+            <div class="tasks" onclick="selectText('selectable')"><img src="./images/icons/selecticon.svg" height="18">Select All</div>
     
         </div>
-
-<h1>Three Lines reordered</h1>
-    <% processedFlight.data.forEach(flight => { %>
-        <div id="flightInfoHolder">
-            <div id="airlineTailImageHolder">
-                <img src="/images/airlines/<%= flight.iatacode.toLowerCase()%>.svg" id="airlineTailImage">
+        <div class ="resultscontainer" id="selectable">
+    
+    
+            <% processedFlight.data.forEach((flight,index) => { %>
+            <div id="flightInfoHolder">
+        
+                <% if(processedFlight.showImage){ %>
+                <%  include ./airlineimage.ejs %>
+                <% } %>
+        
+                <div id="airlineTextHolder">
+                    <h4>
+                        <%= flight.lineOne %>
+        
+                    </h4>
+                    <br />
+                    <p>
+                        Departing:
+                        <%=flight.hourFormattedDepTime %>
+                        from
+                        <%= flight.formattedDepDest %>
+                        
+                        <br />
+        
+        
+                        Arriving:
+                        <%=flight.hourFormattedArrTime %>
+                        into
+                        <%= flight.formattedArrDest %>
+                        
+                    </p>
                 </div>
-
-            <div id="airlineTextHolder">
-                <h4>
-                    <%= flight.formattedDepTime.nice %> -
-                        <%= flight.airlineName %>
-                            <%= flight.flightNo %> -
-                                <%= flight.newFlightDuration.hours %>h
-                                    <%= flight.newFlightDuration.minutes %>m -
-                                        <%= flight.flightDistance.miles %> Miles
-                </h4>
-                <br/>
-                <p>
-                    From
-                    <%= flight.departure.airportName %>
-                        <%= flight.departure.city %>
-                            (<%= flight.departure.iataCode %>) at <%=flight.formattedDepTime.time12 %>
-                </p>
-                <br/>
-                <p>
-                    To
-                    <%= flight.arrival.airportName %>
-                        <%= flight.arrival.city %>
-                            (<%= flight.arrival.iataCode %>) at <%=flight.formattedArrTime.time12 %>
-                </p>
             </div>
-        </div>
-        -------Transit Time-------
+            <div class="transittimetext">
+                <% if(processedFlight.transit && flight.transitTime){ %>
+                    ----------- Transit Time: <%= flight.transitTime %> -----------
+                <% }else if(index!==processedFlight.data.length-1){%>
+                <hr />
+        
+                <% } %>
+            </div>
         
             <% });%>
-
-</div>
+        </div>
+    
+        <!-- <h1>Two Lines reordered</h1> -->
+    
+    </div>

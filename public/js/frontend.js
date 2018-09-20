@@ -75,3 +75,57 @@ let opertedByCookie = document.cookie.replace(/(?:(?:^|.*;\s*)operatedBy\s*\=\s*
 if(opertedByCookie === 'on'){
     document.getElementById('operatedbyInput').checked = true;
 }
+
+
+
+function selectText(containerid) {
+
+console.log(containerid);
+
+    if (document.selection) {
+
+        var range = document.body.createTextRange();
+
+        range.moveToElementText(document.getElementById(containerid));
+
+        range.select();
+
+    } else if (window.getSelection()) {
+
+        var range = document.createRange();
+
+        range.selectNode(document.getElementById(containerid));
+
+        window.getSelection().removeAllRanges();
+
+        window.getSelection().addRange(range);
+
+    }
+
+}
+
+
+function doMailTo(addr) {
+    console.log('dddd')
+    location.href = "mailto:"+addr+"?subject=some subject&body="+document.getElementById('selectable').innerText;
+}
+
+
+const copytarget = document.getElementById("selectable");
+copytarget.addEventListener("click", copyToClipboard);
+
+function copyToClipboard() {
+  var $temp = $("<textarea>");
+  var brRegex = /<br\s*[\/]?>/gi;
+  $("body").append($temp);
+  $temp.val($(copytarget).html().replace(/<\/?[a-zA-Z]+\/?>/g, '').trim()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+
+function imgError(image) {
+    image.onerror = "";
+    image.src = "./images/plane2.svg";
+    return true;
+}
