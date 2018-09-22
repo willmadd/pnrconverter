@@ -1,4 +1,37 @@
-\c airline_master
+\c airline_master;
+
+CREATE TABLE airlinemaster (
+  airline_id varchar(10) NOT NULL,
+  iatacode varchar(13) DEFAULT NULL,
+  airline_name varchar(43) DEFAULT NULL,
+  A varchar(15) DEFAULT NULL,
+  B varchar(15) DEFAULT NULL,
+  C varchar(15) DEFAULT NULL,
+  D varchar(15) DEFAULT NULL,
+  E varchar(15) DEFAULT NULL,
+  F varchar(15) DEFAULT NULL,
+  G varchar(15) DEFAULT NULL,
+  H varchar(15) DEFAULT NULL,
+  I varchar(15) DEFAULT NULL,
+  J varchar(15) DEFAULT NULL,
+  K varchar(15) DEFAULT NULL,
+  L varchar(15) DEFAULT NULL,
+  M varchar(15) DEFAULT NULL,
+  N varchar(15) DEFAULT NULL,
+  O varchar(15) DEFAULT NULL,
+  P varchar(15) DEFAULT NULL,
+  Q varchar(15) DEFAULT NULL,
+  R varchar(15) DEFAULT NULL,
+  S varchar(15) DEFAULT NULL,
+  T varchar(15) DEFAULT NULL,
+  U varchar(15) DEFAULT NULL,
+  V varchar(15) DEFAULT NULL,
+  W varchar(15) DEFAULT NULL,
+  X varchar(15) DEFAULT NULL,
+  Y varchar(15) DEFAULT NULL,
+  Z varchar(15) DEFAULT NULL
+);
+
 
 INSERT INTO airlinemaster (airline_id, iatacode, airline_name, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) VALUES
 ('', '9V', 'Avior Airlines', 'Economy', 'Economy', 'Economy', 'Business', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy', 'Economy'),
@@ -950,3 +983,4 @@ INSERT INTO airlinemaster (airline_id, iatacode, airline_name, A, B, C, D, E, F,
 ('97', '2A', 'Deutsche Bahn', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('98', '2B', 'Aerocondor', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('99', '2C', 'SNCF', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+
