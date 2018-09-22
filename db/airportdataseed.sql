@@ -51,7 +51,7 @@ CREATE TABLE airportdata (
   COLone int DEFAULT NULL,
   timezonehours varchar(3) DEFAULT NULL,
   timezoneminutes int DEFAULT NULL,
-  COLtwo varchar(5) DEFAULT NULL,
+  COLtwo varchar(20) DEFAULT NULL,
   timezone varchar(30) DEFAULT NULL,
   COLthree varchar(7) DEFAULT NULL,
   COLfour varchar(11) DEFAULT NULL

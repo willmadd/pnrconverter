@@ -8,7 +8,7 @@ const test = {
 
 const development = {
   port: 5432,
-  host: 'localhost',
+  host: '93.188.161.109',
   database: 'airline_master'
 }
 
