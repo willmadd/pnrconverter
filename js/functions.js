@@ -3,6 +3,7 @@ const db = require("../db");
 const spacetime = require("spacetime");
 
 exports.getAirlineName = (flightInfo, index) => {
+  
   let iatacode = { iatacode: flightInfo.slice(0, 2) };
   return db.one(
     "SELECT iatacode, airline_name , A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z FROM airlinemaster WHERE iatacode LIKE  $/iatacode/",

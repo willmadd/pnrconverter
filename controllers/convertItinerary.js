@@ -132,14 +132,23 @@ exports.convertItinerary = (req, res, next) => {
   flightData = flightData.trim().toUpperCase().split("\r\n");
 
 //name extraactor function
+//\b[\d]{1}[\d]{4,}\/\D+\b|\b[\d]{1}\.[\w]{4,}\/\D+\b
+//[\d]{1}\.\w+\/\w+
+
+
 
 flightData.forEach(line => {
-  if (/\b[0-9]{1}[A-Z]{4,}\/\D+\b/.test(line)){
+  if (/\b\d{1}\.\w{3,}\/\D+[\D]\b/.test(line)){
+    // console.log(line);
     line = line.split(/[0-9]\.[0-9]|[0-9]\./).filter(line => line)
-    console.log(line);
+    line.forEach(line =>{
+      processedFlight.passengers.push(line)
+    })
   }
 })
-
+processedFlight.passengers = processedFlight.passengers.filter(name=>{
+  return !/^\s/.test(name)
+})
 console.log(processedFlight.passengers)
 
   // preg_match_all('/\b[0-9]{1}[A-Z]{4,}\/\D+\b/', $b, $namematches);
@@ -333,7 +342,7 @@ console.log(processedFlight.passengers)
 
         // console.log(util.inspect(processedFlight, {showHidden: false, depth: null}))
 
-        // console.log(processedFlight);
+        console.log(processedFlight);
       });
       // let output = createOutput(processedFlight, resultsOption);
       res.status(200).render("refresh", { processedFlight });

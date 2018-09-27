@@ -8,7 +8,13 @@
     </div>
 
     <div class ="resultscontainer" id="selectable">
-
+        <% if (processedFlight.passengers.length > 0){ %>
+            <p>Itinerary For</p>
+        <%    processedFlight.passengers.forEach(name => {%>
+                <%= name %><br/>
+        <%    }) %>
+        <br/>
+        <% } %>
         
         <% processedFlight.data.forEach((flight, index) => { %>
         <div id="flightInfoHolder">
