@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Easy PNR Converter &amp; Decoder- Flight Itinerary Converter for Galileo, Smartpoint, Amadeus &amp; Sabre
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/newmain.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script defer src="/js/frontend.js"></script>
+    <meta name="description" content="PNR Itinerary converter and decoder for Galileo, Smartpoint, Amadeus or Sabre. Convert your GDS itineraries into a customer friendly, readable format">
+    <meta name="keywords" content="PNR, ITINERARY, TRANSLATOR, GDS, AMADEUS, GALILEO, SMARTPOINT, SABRE, DECODE">
+    <meta name="author" content="PNR Converter">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <meta name="robots" content="nofollow" />
+
+</head>
+
+<body>
+    <div id="notnav">
+        <header>
+
+            <a href="/"><img src="./images/plane2.svg" id="headerlogo" height="120" width="120"></a>
+            <h1>PNR Converter</h1>
+            <h3> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h3>
+        </header>
+
+
+
+
+        <form id="notheader" action="/" method="post" name="maininput">
+            <main>
+                <div id="horizonatalnavbar">
+                    <div class="navmenuitem"><img src="./images/icons/homeicon.svg"/ height="18" id="homeImage"> Home</div>
+                    <div class="navmenuitem"><img src="./images/icons/apiicon.svg" height="18" id="apiImage">API</div>
+                    <div class="navmenuitem"><img src="./images/icons/howtoicon.svg" height="18" id="howtoImage">How It
+                        Works</div>
+                    <div class="navmenuitem"><img src="./images/icons/suggestionicon.svg" height="18" id="suggestionImage">Suggestions</div>
+                    <div class="navmenuitem"><img src="./images/icons/aboutusicon.svg" height="18" id="aboutUsImage">About
+                        Us</div>
+                    <div class="navmenuitem"><img src="./images/icons/blogicon.svg" height="18" id="blogImage">Blog</div>
+                    <div class="navmenuitem"><img src="./images/icons/languageicon.svg" height="18" id="languageImage">Language</div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-text">
+                        <h1>How PNR Converter Works</h1>
+                    </div>
+                </div>
+
+                <div id="blurb">
+
+                    <div class="resultscontainer">
+
+                        <h3>
+                            Using PNR Converter is Easy
+                        </h3>
+
+                        <a href="/">Getting Started</a>
+                        <a href="/">Display Options</a>
+                        <a href="/">Results Format</a>
+
+                        <h3>Getting Started</h3>
+                        <p>
+                            We've developed one of the most advanced tools on the web to convert raw data from any
+                            travel agent GDS into a nice, customer friendly readable itinerary. Using PNR Converter is
+                            about as straight forward as it's possible to get!
+
+                            Simply copy and paste your itinerary from any of Galileo, Smartpoint, Sabre or Amadeus and
+                            PNR Converter will give you coherent, comprehensive and easily readable itinerary.
+                        </p>
+
+                        <h4>
+                            Step 1
+                        </h4>
+                        <p>
+                            Get the PNR you want to convert up in the GDS of your choice, including passenger names if
+                            required
+                        </p>
+                        <h4>
+                            Step 2
+                        </h4>
+                        <p>
+                            Select the itinerary in the GDS and copy it to the clip board
+                        </p>
+                        <h4>
+                            Step 3
+                        </h4>
+                        <p>
+                            Go to www.pnrconverter.com and paste the itinerary into the box at the top
+                        </p>
+                        <h4>
+                            Step 4
+                        </h4>
+                        <p>
+                            Hit the 'Convert' Button
+                        </p>
+                        <h4>
+                            Step 5
+                        </h4>
+                        <p>
+                            Play around with the options to get a format that you like
+                        </p>
+                        <h4>
+                            Step 6
+                        </h4>
+                        <p>
+                            Copy and Paste the output into an Email and have happy customers!
+                        </p>
+                        <hr />
+
+                        <h3>
+                            Display Options
+                        </h3>
+
+                        <h4>Show Airline Name</h4>
+                        <p>With this option selected the airline two letter abreiviation in the flight number is
+                            replaced with the actual full airline name</p>
+
+                        <h4>Show Airline Logo</h4>
+                        <p>Displays the airline logo next to the flight details. When copying and pasting into other
+                            applications, text editos emails clients etc the image may not show up. This is somethign
+                            we are working on, but is due to limitations with the text editors. Image copying works in
+                            Apple Mail, Outlook and copying directly into webmail (gmail yahoo etc) </p>
+
+                        <h4>Show Cabin</h4>
+                        <p>With 'Cabin' selected this options shows the cabin name i.e. First, Business, Premium
+                            Economy or Economy. This option is not available with all airlines, however we are updating
+                            our database all the time. If there's an airline you sell frequently and would like us to
+                            add please let us know! </p>
+                        <p>With 'Class' selected this options shows the booking class next to the flight number </p>
+
+                        <h4>Flight Duration</h4>
+                        <p>Displays the flight duration in hours and minuted</p>
+
+                        <h4>Show Distance</h4>
+                        <p>Displays the distance between the starting airport and the ending airport. This is an
+                            estimate advised to us by the airlines, but should not be used for calculations of any
+                            mileage based air tickets</p>
+
+                        <h4>12 Hour Clock</h4>
+                        <p>Some of us use the 24 hour clock (i.e. 14:20) and some use the 12 hour clock (i.e. 2:20pm).
+                            This option simply toggles between the two</p>
+
+                        <h4>Transit Time</h4>
+                        <p>Shows the transit time on any flights where the tme on the ground is less than 24 hours.</p>
+
+                        <h4>Show Operated By</h4>
+                        <p>If the flight has a flight number from one airline but operated by another then this will be
+                            displayed here. Please note that the only way PNR Converter can detect that the flight is a
+                            code share is if it says 'Operated By' in the line after the flight e.g.
+                            <pre>
+        1 KL4602X 24DEC 1 MELCAN HK4  0840  1520  /DCKL*VNSMXR /E
+        OPERATED BY CHINA SOUTHERN AIRLINES
+        
+
+</pre>
+                        </p>
+
+                        <h3>Results Format</h3>
+
+                        To see how the results will look like is we enter the below
+
+                        <pre>
+        1.1JONES/RACHAEL                                              
+        1 DL  46T 19JUL Q JFKAMS*SS1   436P  555A  20JUL F /DCDL /E   
+       MOVIES                                                         
+       6**SKY PRIORITY IN C                                           
+       DELTA ONE SVC THIS FLT                                         
+        2 DL9355T 20JUL F AMSZAG*SS1   930A 1120A /DCDL /E            
+       OPERATED BY KLM CITYHOPPER                                     
+       *DL CODE SHARE-QUOTE OPERATED BY KLMCITYHOPPE AS KL FLT 1939   
+       ONLINE CONNECTING TRAFFIC ONLY                                 
+        3 DL8329K 29JUL S ZAGCDG*SS1   310P  510P /DCDL /E            
+       OPERATED BY AIR FRANCE                                         
+       *DL CODE SHARE-QUOTE OPERATED BY AIR FRANCE AS AF FLT 1561     
+       ONLINE CONNECTING TRAFFIC ONLY                                 
+        4 DL1021K 29JUL S CDGJFK*SS1   710P  925P /DCDL /E            
+       OPERATED BY AIR FRANCE                                         
+       *DL CODE SHARE-QUOTE OPERATED BY AIR FRANCE AS AF FLT 8       
+</pre>
+
+                        <h4>Two Lines:</h4>
+
+
+                        <p>Itinerary For</p>
+
+                        JONES/RACHAEL <br />
+
+                        <br />
+
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Fri 19th Jul - Delta 46 - Economy - 7h 19m - 3783 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+
+                                    New York John F Kennedy Airport, (JFK), To
+                                    Amsterdam Schiphol Airport (AMS), Depart
+                                    16:36 Arrive
+                                    05:55 (on Sat 20th Jul)
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <h1>Two Lines reordered</h1> -->
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 3h 35m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Sat 20th Jul - Delta 9355 (Operated By Klm Cityhopper) - Economy - 1h 50m - 683
+                                    Miles
+
+                                </h4>
+                                <br />
+                                <p>
+
+                                    Amsterdam Schiphol Airport (AMS), To
+                                    Zagreb Airport (ZAG), Depart
+                                    09:30 Arrive
+                                    11:20
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <h1>Two Lines reordered</h1> -->
+                        <div class="transittimetext">
+
+                            <hr />
+
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 8329 (Operated By Air France) - Economy - 2h 0m - 671 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+
+                                    Zagreb Airport (ZAG), To
+                                    Paris Charles de Gaulle Airport (CDG), Depart
+                                    15:10 Arrive
+                                    17:10
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <h1>Two Lines reordered</h1> -->
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 2h 0m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 1021 (Operated By Air France) - Economy - 8h 15m - 3765 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+
+                                    Paris Charles de Gaulle Airport (CDG), To
+                                    New York John F Kennedy Airport, (JFK), Depart
+                                    19:10 Arrive
+                                    21:25
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <h4>Two Lines Reordered:</h4>
+                        <p>Itinerary For</p>
+
+                        JONES/RACHAEL <br />
+
+                        <br />
+
+                        <!-- <h1>Two Lines reordered</h1> -->
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Fri 19th Jul - Delta 46 - Economy - 7h 19m - 3783 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departs:
+                                    16:36
+                                    From
+                                    New York John F Kennedy Airport, (JFK),
+
+
+                                    Arrives:
+                                    Amsterdam Schiphol Airport (AMS),
+                                    at
+                                    05:55 (on Sat 20th Jul)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 3h 35m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Sat 20th Jul - Delta 9355 (Operated By Klm Cityhopper) - Economy - 1h 50m - 683
+                                    Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departs:
+                                    09:30
+                                    From
+                                    Amsterdam Schiphol Airport (AMS),
+
+
+                                    Arrives:
+                                    Zagreb Airport (ZAG),
+                                    at
+                                    11:20
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            <hr />
+
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 8329 (Operated By Air France) - Economy - 2h 0m - 671 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departs:
+                                    15:10
+                                    From
+                                    Zagreb Airport (ZAG),
+
+
+                                    Arrives:
+                                    Paris Charles de Gaulle Airport (CDG),
+                                    at
+                                    17:10
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 2h 0m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 1021 (Operated By Air France) - Economy - 8h 15m - 3765 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departs:
+                                    19:10
+                                    From
+                                    Paris Charles de Gaulle Airport (CDG),
+
+
+                                    Arrives:
+                                    New York John F Kennedy Airport, (JFK),
+                                    at
+                                    21:25
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+                        <h4>Three Lines:</h4>
+                        <p>Itinerary For</p>
+
+                        JONES/RACHAEL <br />
+
+                        <br />
+
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Fri 19th Jul - Delta 46 - Economy - 7h 19m - 3783 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    New York John F Kennedy Airport, (JFK),
+                                    at
+                                    16:36
+                                    <br />
+
+
+                                    Arriving:
+                                    Amsterdam Schiphol Airport (AMS),
+                                    at
+                                    05:55 (on Sat 20th Jul)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time:
+                            3h 35m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Sat 20th Jul - Delta 9355 (Operated By Klm Cityhopper) - Economy - 1h 50m - 683
+                                    Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    Amsterdam Schiphol Airport (AMS),
+                                    at
+                                    09:30
+                                    <br />
+
+
+                                    Arriving:
+                                    Zagreb Airport (ZAG),
+                                    at
+                                    11:20
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            <hr />
+
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 8329 (Operated By Air France) - Economy - 2h 0m - 671 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    Zagreb Airport (ZAG),
+                                    at
+                                    15:10
+                                    <br />
+
+
+                                    Arriving:
+                                    Paris Charles de Gaulle Airport (CDG),
+                                    at
+                                    17:10
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time:
+                            2h 0m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                    width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 1021 (Operated By Air France) - Economy - 8h 15m - 3765 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    Paris Charles de Gaulle Airport (CDG),
+                                    at
+                                    19:10
+                                    <br />
+
+
+                                    Arriving:
+                                    New York John F Kennedy Airport, (JFK),
+                                    at
+                                    21:25
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <hr />
+
+
+                        <h4>Three Lines Reordered:</h4>
+                        <p>Itinerary For</p>
+
+                        JONES/RACHAEL <br />
+
+                        <br />
+
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage" width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Fri 19th Jul - Delta 46 - Economy - 7h 19m - 3783 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    16:36
+                                    from
+                                    New York John F Kennedy Airport, (JFK),
+
+                                    <br />
+
+
+                                    Arriving:
+                                    05:55 (on Sat 20th Jul)
+                                    into
+                                    Amsterdam Schiphol Airport (AMS),
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 3h 35m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage" width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Sat 20th Jul - Delta 9355 (Operated By Klm Cityhopper) - Economy - 1h 50m - 683
+                                    Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    09:30
+                                    from
+                                    Amsterdam Schiphol Airport (AMS),
+
+                                    <br />
+
+
+                                    Arriving:
+                                    11:20
+                                    into
+                                    Zagreb Airport (ZAG),
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            <hr />
+
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage" width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 8329 (Operated By Air France) - Economy - 2h 0m - 671 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    15:10
+                                    from
+                                    Zagreb Airport (ZAG),
+
+                                    <br />
+
+
+                                    Arriving:
+                                    17:10
+                                    into
+                                    Paris Charles de Gaulle Airport (CDG),
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="transittimetext">
+
+                            ----------- Transit Time: 2h 0m -----------
+
+                        </div>
+
+
+                        <div id="flightInfoHolder">
+
+
+                            <div id="airlineTailImageHolder">
+                                <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage" width="82">
+                            </div>
+
+
+                            <div id="airlineTextHolder">
+                                <h4>
+                                    Mon 29th Jul - Delta 1021 (Operated By Air France) - Economy - 8h 15m - 3765 Miles
+
+                                </h4>
+                                <br />
+                                <p>
+                                    Departing:
+                                    19:10
+                                    from
+                                    Paris Charles de Gaulle Airport (CDG),
+
+                                    <br />
+
+
+                                    Arriving:
+                                    21:25
+                                    into
+                                    New York John F Kennedy Airport, (JFK),
+
+                                </p>
+
+                                <hr />
+                            </div>
+                        </div>
+
+                        <h4>Table</h4>
+                        <p>Itinerary For</p>
+
+                        JONES/RACHAEL <br />
+
+                        <br />
+
+
+                        <table>
+                            <tr>
+
+                                <th></th>
+
+
+
+                                <th>Airline</th>
+
+                                <!-- 
+                <th>Operated By</th>
+                 -->
+
+                                <th>Flight No</th>
+
+
+
+                                <th>Cabin</th>
+
+
+
+                                <th>Date</th>
+                                <th>Depart</th>
+                                <th>From</th>
+                                <th>Arrive</th>
+                                <th>At</th>
+
+                                <th>Duration</th>
+
+                                <th>Distance</th>
+
+
+                                <th>Transit</th>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+                                    <div id="airlineTailImageHolder">
+                                        <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                            width="82">
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    Delta
+
+
+
+
+
+                                </td>
+
+                                <!-- 
+                <td>
+                    
+                </td>
+                 -->
+                                <td>
+
+                                    46
+
+                                </td>
+
+
+                                <td>Economy</td>
+
+
+                                <td>
+                                    Fri 19th Jul
+                                </td>
+                                <td>
+                                    16:36
+                                </td>
+                                <td>
+                                    New York John F Kennedy Airport, (JFK),
+                                </td>
+                                <td>
+                                    Amsterdam Schiphol Airport (AMS),
+                                </td>
+                                <td>
+                                    05:55 (on Sat 20th Jul)
+                                </td>
+
+
+                                <td>
+                                    7h
+                                    19m</td>
+
+                                <td>
+
+
+
+
+                                    3783 miles
+                                </td>
+
+
+                                <td>
+                                    3h 35m
+                                </td>
+
+
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div id="airlineTailImageHolder">
+                                        <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                            width="82">
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    Delta
+
+
+                                    (Operated By Klm Cityhopper)
+
+
+                                </td>
+
+                                <!-- 
+                <td>
+                    (Operated By Klm Cityhopper)
+                </td>
+                 -->
+                                <td>
+
+                                    9355
+
+                                </td>
+
+
+                                <td>Economy</td>
+
+
+                                <td>
+                                    Sat 20th Jul
+                                </td>
+                                <td>
+                                    09:30
+                                </td>
+                                <td>
+                                    Amsterdam Schiphol Airport (AMS),
+                                </td>
+                                <td>
+                                    Zagreb Airport (ZAG),
+                                </td>
+                                <td>
+                                    11:20
+                                </td>
+
+
+                                <td>
+                                    1h
+                                    50m</td>
+
+                                <td>
+
+
+
+
+                                    683 miles
+                                </td>
+
+
+                                <td>
+
+                                </td>
+
+
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div id="airlineTailImageHolder">
+                                        <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                            width="82">
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    Delta
+
+
+                                    (Operated By Air France)
+
+
+                                </td>
+
+                                <!-- 
+                <td>
+                    (Operated By Air France)
+                </td>
+                 -->
+                                <td>
+
+                                    8329
+
+                                </td>
+
+
+                                <td>Economy</td>
+
+
+                                <td>
+                                    Mon 29th Jul
+                                </td>
+                                <td>
+                                    15:10
+                                </td>
+                                <td>
+                                    Zagreb Airport (ZAG),
+                                </td>
+                                <td>
+                                    Paris Charles de Gaulle Airport (CDG),
+                                </td>
+                                <td>
+                                    17:10
+                                </td>
+
+
+                                <td>
+                                    2h
+                                    0m</td>
+
+                                <td>
+
+
+
+
+                                    671 miles
+                                </td>
+
+
+                                <td>
+                                    2h 0m
+                                </td>
+
+
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    <div id="airlineTailImageHolder">
+                                        <img src="./images/airlines/dl.svg" onerror="imgError(this)" id="airlineTailImage"
+                                            width="82">
+                                    </div>
+                                </td>
+                                <td>
+                                    Delta,(Operated By Air France)
+                                </td>
+                                <td>
+                                    1021
+                                </td>
+                                <td>Economy</td>
+                                <td>
+                                    Mon 29th Jul
+                                </td>
+                                <td>
+                                    19:10
+                                </td>
+                                <td>
+                                    Paris Charles de Gaulle Airport (CDG),
+                                </td>
+                                <td>
+                                    New York John F Kennedy Airport, (JFK),
+                                </td>
+                                <td>
+                                    21:25
+                                </td>
+                                <td>
+                                    8h
+                                    15m</td>
+                                <td>
+                                    3765 miles
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+    
+
+    <div id="advertisingArea">
+        <img src="./images/samplead.png" width="728" height="90">
+    </div>
+
+    </main>
+
+    </form>
+    <!-- <div id="controls">controls</div> -->
+
+    </div>
+
+</html>
