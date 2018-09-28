@@ -5,6 +5,22 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 let session = require('express-session');
 
+const express = require('express');
+const app = express();
+const fs = require('fs');
+
+
+
+
+
+
+
+
+// Lots of other express stuff (app.use()'s)
+
+
+
+
 
 
 app.use(session({secret: "Me@nw00d4L14e", resave: false, saveUninitialized: true, ephemeral: true}));
@@ -22,4 +38,7 @@ app.post('/',convertItinerary);
 app.post('/api/', getApi)
 app.use('/api/', express.static('public/api.html'));
 app.use('/termsandconditions', express.static('public/termsandconditions.html'));
+
+
+
 module.exports = app;
