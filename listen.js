@@ -1,5 +1,5 @@
 const app = require('./app');
-
+const fs = require('fs');
 let http = require('http');
 let https = require('https');
 let privateKey  = fs.readFileSync('/var/www/html/https-backend-node-server/public/ssl/private.key', 'utf8');
