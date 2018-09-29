@@ -111,6 +111,12 @@ fieldset{
   /* background-color: blue; */
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+
+}
+
 .navmenuitem img{
   background-color: white;
   margin-right:4px;

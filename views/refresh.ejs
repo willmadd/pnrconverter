@@ -3,14 +3,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107272376-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107272376-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-107272376-1');
-</script>
+        gtag('config', 'UA-107272376-1');
+    </script>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,15 +43,17 @@
         <form id="notheader" action="/" method="post" name="maininput">
             <main>
                 <div id="horizonatalnavbar">
-                    <div class="navmenuitem"><img src="./images/icons/homeicon.svg"/ height="18" id="homeImage"> Home</div>
-                    <div class="navmenuitem"><img src="./images/icons/apiicon.svg" height="18" id="apiImage">API</div>
-                    <div class="navmenuitem"><img src="./images/icons/howtoicon.svg" height="18" id="howtoImage">How It
-                        Works</div>
-                    <div class="navmenuitem"><img src="./images/icons/suggestionicon.svg" height="18" id="suggestionImage">Suggestions</div>
-                    <div class="navmenuitem"><img src="./images/icons/aboutusicon.svg" height="18" id="aboutUsImage">About
-                        Us</div>
-                    <div class="navmenuitem"><img src="./images/icons/blogicon.svg" height="18" id="blogImage">Blog</div>
-                    <div class="navmenuitem"><img src="./images/icons/languageicon.svg" height="18" id="languageImage">Language</div>
+                        <a class="navmenuitem" href = "/"><img src="./images/icons/homeicon.svg"/ height="18" id="homeImage"> Home</a>
+                        <a class="navmenuitem" href = "/api/">
+                            <img src="./images/icons/apiicon.svg" height="18" id="apiImage">API
+                        </a>
+                        <a class="navmenuitem" href = "/howitworks/"><img src="./images/icons/howtoicon.svg" height="18" id="howtoImage">How It
+                        Works</a>
+                    <a class="navmenuitem" href = "/suggestions/"><img src="./images/icons/suggestionicon.svg" height="18" id="suggestionImage">Suggestions</a>
+                    <a class="navmenuitem" href = "/aboutus/"><img src="./images/icons/aboutusicon.svg" height="18" id="aboutUsImage">About
+                        Us</a>
+                    <a class="navmenuitem" href = "/blog/"><img src="./images/icons/blogicon.svg" height="18" id="blogImage">Blog</a>
+                    <a class="navmenuitem" href = "/"><img src="./images/icons/languageicon.svg" height="18" id="languageImage">Language</a>
                 </div>
 
                 <div id="dataInput">
@@ -65,7 +67,14 @@
                 </div>
 
                 <div id="advertisingArea">
-                    <img src="./images/samplead.png" width="728" height="90">
+                    <!-- <img src="./images/samplead.png" width="728" height="90"> -->
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Long ad -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2303157713889417"
+                        data-ad-slot="8744366555"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
 
 
@@ -104,19 +113,20 @@
                     <div class="multioptionscontainer">
                         Show Cabin
                         <div class="controlbreak multioptionsbreak"></div>
-                        <fieldset id="cabinfieldset" class ="fieldset" onchange="document.getElementById('notheader').submit()" name="distance">
-                                <input id="cabinoff" type="radio" value="off" name="cabinradio">
-                                    <label for ="cabinoff">Off
-                                </label>
-                                
-                                <input id="cabinclass" type="radio" value="class" name="cabinradio">
-                                    <label for="cabinclass">Class
-                                </label>
-                                
-                                <input id="cabincabin" type="radio" value="cabin" name="cabinradio">
-                                    <label for ="cabincabin"> Cabin
-                                </label>
-                            </fieldset>
+                        <fieldset id="cabinfieldset" class="fieldset" onchange="document.getElementById('notheader').submit()"
+                            name="distance">
+                            <input id="cabinoff" type="radio" value="off" name="cabinradio">
+                            <label for="cabinoff">Off
+                            </label>
+
+                            <input id="cabinclass" type="radio" value="class" name="cabinradio">
+                            <label for="cabinclass">Class
+                            </label>
+
+                            <input id="cabincabin" type="radio" value="cabin" name="cabinradio">
+                            <label for="cabincabin"> Cabin
+                            </label>
+                        </fieldset>
                     </div>
                     <div class="displayOption" id="showCabin">
 
@@ -145,33 +155,34 @@
                     </div>
 
                     <div class="multioptionscontainer">
-                            Show Distance
-                            <div class="controlbreak multioptionsbreak" ></div>
-                            <fieldset id="distancefieldset" class="fieldset" onchange="document.getElementById('notheader').submit()"
+                        Show Distance
+                        <div class="controlbreak multioptionsbreak"></div>
+                        <fieldset id="distancefieldset" class="fieldset" onchange="document.getElementById('notheader').submit()"
                             name="distance">
                             <input type="radio" id="distanceoff" value="Off" name="distanceradio">
-                                <label for ="distanceoff">Off
+                            <label for="distanceoff">Off
                             </label>
-                            
+
                             <input type="radio" id="distancekm" value="km" name="distanceradio">
-                                <label for = "distancekm">KM
+                            <label for="distancekm">KM
                             </label>
-                            
+
                             <input type="radio" id="distancemiles" value="miles" name="distanceradio">
-                                <label for="distancemiles"> Miles
+                            <label for="distancemiles"> Miles
                             </label>
                         </fieldset>
-                        </div>
+                    </div>
 
 
-                    
+
                     <div class="displayOption" id="hourClock">
                         <input type="checkbox" name="timeformat" id="timeformatInput" onchange="document.getElementById('notheader').submit()">
                         <label for="timeformatInput"><img src="./images/icons/clockicon.svg" height="12"">12 Hour Clock</label>
                     </div>
-                    <!-- <div class="displayOption" id="showTitle">
-                        <input type="checkbox" name="quoteheader" id="quoteheaderInput" onchange="document.getElementById('notheader').submit()">
-                        <label for="quoteheaderInput">Show Title</label>
+                    <!-- <div class="
+                                displayOption" id="showTitle">
+                            <input type="checkbox" name="quoteheader" id="quoteheaderInput" onchange="document.getElementById('notheader').submit()">
+                            <label for="quoteheaderInput">Show Title</label>
                     </div> -->
                     <div class="displayOption" id="transitTime">
                         <input type="checkbox" name="transittime" id="transittimeInput" onchange="document.getElementById('notheader').submit()">
