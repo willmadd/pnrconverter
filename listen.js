@@ -18,6 +18,6 @@ let httpServer = http.createServer(app);
 httpServer.listen(8080, ()=>{
     console.log('listening on port 8080')
 });
-// httpsServer.listen(4430, ()=> {
-//     console.log('listening on port 4430')
-// });
+httpsServer.listen(4430, ()=> {
+    console.log('listening on port 4430')
+});
