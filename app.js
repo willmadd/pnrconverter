@@ -34,7 +34,13 @@ app.use('/', express.static('public'));
 
 app.post('/',convertItinerary);
 app.post('/api/', getApi)
-app.use('/api/', express.static('public/api.html'));
+app.use('/api-introduction', express.static('public/api.html'));
+app.use('/aboutus', express.static('public/aboutus.html'));
+app.use('/blog/', express.static('public/blog/index.html'));
+app.use('/how-it-works/', express.static('public/howitworks.html'));
+
+
+
 app.use('/termsandconditions', express.static('public/termsandconditions.html'));
 
 
