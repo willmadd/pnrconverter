@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,7 +23,6 @@
 
             <a href="/"><img src="../images/plane2.svg" id="headerlogo" height="120" width="120"></a>
             <h1>PNR Converter</h1>
-            <h3> for Galileo, Smartpoint, Worldspan, Amadeus & Sabre GDS</h3>
             
         </header>
 
@@ -40,7 +38,7 @@
                             </a>
                             <a class="navmenuitem" href = "/how-it-works"><img src="./images/icons/howtoicon.svg" height="18" id="howtoImage">How It
                             Works</a>
-                        <a class="navmenuitem" href = "/suggestions"><img src="./images/icons/suggestionicon.svg" height="18" id="suggestionImage">Suggestions</a>
+                        <a class="navmenuitem" href = "/make-a-suggestion"><img src="./images/icons/suggestionicon.svg" height="18" id="suggestionImage">Suggestions</a>
                         <a class="navmenuitem" href = "/about-us"><img src="./images/icons/aboutusicon.svg" height="18" id="aboutUsImage">About
                             Us</a>
                         <a class="navmenuitem" href = "/blog"><img src="./images/icons/blogicon.svg" height="18" id="blogImage">Blog</a>
@@ -49,7 +47,7 @@
                         
                         <div class="hero-image">
                             <div class="hero-text">
-                              <h1>The PNR Converter API</h1>
+                              <h1>Give us some feedback</h1>
                             </div>
                           </div>
                 
@@ -66,68 +64,14 @@
 
                 <div id="blurb">
                         <div class="resultscontainer">
-                           <p> Coming shortly we will be providing our very own API for 3rd parties to translate their own raw output into a JSON formatted response that agencies will be able to use with their own online systems. </p>
-                           <p>As is the PNR converter way we will be providing the most comprehensive API out here in terms of details returned. All data that PNR converter normally provides will be available including codeshares, flight distance and duration</p>
-                           <h4>Please Contact us for more information</h4>
-                           <h3>Sample post request to https://www.pnrconverter.com/my-key/api</h3>   
-                           <pre><code>  
-{
-    "flightData": "UA1180 U 10MAY 4 EWRORD HK2        C   459P 631P   752 E0"
-}
-                                    </code></pre>
-                                    <hr/>
-                                    <h3>Sample output:</h3>  
-                                    <pre><code>
-{   
-    "flightOutput": [
-        {
-            "flightNo": "1180",
-            "airlineName": "United Airlines",
-            "iatacode": "UA",
-            "bookingClass": "U",
-            "operatedBy": null,
-            "bookingCabin": "Economy",
-            "departure": {
-                "airportName": "Newark Liberty Airport",
-                "iataCode": "EWR",
-                "country": "United States",
-                "city": "Newark",
-            },
-            "arrival": {
-                "airportName": "Chicago O'Hare Airport",
-                "iataCode": "ORD",
-                "country": "United States",
-                "city": "Chicago",
-            },
-            "flightDistance": {
-                "miles": 718,
-                "km": 1155
-            },
-            "FlightDuration": {
-                "hours": 2,
-                "minutes": 32
-            },
-            "formattedDepTime": {
-                "full": "2019-05-10T16:59:00.000-01:00",
-                "nice": "Fri 10th May 2019",
-                "time12": "4:59pm",
-                "time24": "16:59",
-                "spaceTime": "May 10, 2019 16:59"
-            },
-            "formattedArrTime": {
-                "full": "2019-05-10T18:31:00.000-01:00",
-                "nice": "Fri 10th May 2019",
-                "time12": "6:31pm",
-                "time24": "18:31",
-                "spaceTime": "May 10, 2019 18:31"
-            }
-        }
-    ]
-}
-                                    
-                                    </code></pre>
-</div>
-</div>
+
+                            <p>We're always looking for ways to improve PNR converter. If you're a travel agent and have any ideas that you think we could include into PNR converter, then please get in touch!</p>
+                            
+                                            <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezV07CEXLCjVfPJfYnJP4kz14JzWgRfm9iy4OJHknjxAdJrg/viewform?embedded=true" width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></center>
+
+                        </div></div>
+
+
             </main>
             
         </form>
@@ -135,8 +79,3 @@
 
     </div>
 </html>
-
-
-
-
-

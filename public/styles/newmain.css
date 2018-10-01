@@ -120,16 +120,17 @@ a {
 .navmenuitem img{
   background-color: white;
   margin-right:4px;
+  transition: 0.5s
 }
 
 #horizonatalnavbar:hover .navmenuitem #homeImage, #horizonatalnavbar:hover .navmenuitem #aboutUsImage {
-  background-color: orange;
+  background-color: #28AFB0;
   transition: 0.5s;
 }
 
 
-/* #horizonatalnavbar:hover .navmenuitem #apiImage, #horizonatalnavbar:hover .navmenuitem #blogImage {
-  background-color: green;
+#horizonatalnavbar:hover .navmenuitem #apiImage, #horizonatalnavbar:hover .navmenuitem #blogImage {
+  background-color: #28AFB0;
   transition: 0.5s;
 }
 
@@ -141,7 +142,7 @@ a {
 #horizonatalnavbar:hover .navmenuitem #suggestionImage {
   background-color: #28AFB0;
   transition: 0.5s;
-} */
+}
 
 .navmenuitem:hover{
    /* text-decoration: underline; */

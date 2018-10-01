@@ -3,20 +3,7 @@ const app = express();
 const {convertItinerary, getApi, showHomePage} = require('./controllers/convertItinerary');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-let session = require('express-session');
-
-
-
-
-
-
-
-
-
-
-// Lots of other express stuff (app.use()'s)
-
-
+const session = require('express-session');
 
 
 
@@ -34,14 +21,17 @@ app.use('/', express.static('public'));
 
 app.post('/',convertItinerary);
 app.post('/api/', getApi)
-app.use('/api-introduction', express.static('public/api.html'));
-app.use('/aboutus', express.static('public/aboutus.html'));
+
+app.use('/api-introduction/', express.static('public/api.html'));
+app.use('/make-a-suggestion/', express.static('public/suggestions.html'));
+
+app.use('/about-us/', express.static('public/aboutus.html'));
 app.use('/blog/', express.static('public/blog/index.html'));
 app.use('/how-it-works/', express.static('public/howitworks.html'));
+app.use('/termsandconditions/', express.static('public/termsandconditions.html'));
 
 
 
-app.use('/termsandconditions', express.static('public/termsandconditions.html'));
 
 
 
