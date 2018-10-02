@@ -37,8 +37,23 @@ exports.showHomePage = (req, res, next) => {
   res.status(200).render("refresh", { processedFlight });
 };
 
+exports.showHomePageEs = (req, res, next) => {
+  let processedFlight = {};
+  processedFlight.renderOutput = "home";
+  console.log(processedFlight);
+  res.status(200).render("spanish", { processedFlight });
+};
+
+exports.showHomePageCn = (req, res, next) => {
+  let processedFlight = {};
+  processedFlight.renderOutput = "home";
+  console.log(processedFlight);
+  res.status(200).render("chinese", { processedFlight });
+};
+
 exports.convertItinerary = (req, res, next) => {
   let flightData = req.body.dataInput;
+  let language = req.params.language;
 
   // console.log(req.cookies)
   // console.log(req.body);
@@ -231,6 +246,8 @@ console.log(processedFlight.passengers)
       let airlineData = result.slice(0, result.length / 2);
       let airportData = result.slice(result.length / 2);
 
+console.log(airportData)
+
       airlineData.forEach((flightLine, index) => {
         let bookingClass = getbookingClass(flightData[index]);
         let departureDate = getDepartureDate(flightData[index]);
@@ -342,10 +359,18 @@ console.log(processedFlight.passengers)
 
         // console.log(util.inspect(processedFlight, {showHidden: false, depth: null}))
 
-        console.log(processedFlight);
+        // console.log(processedFlight);
       });
+      
+      
+      switch (language){
+        case 'cn':
+          res.status(200).render("chinese", { processedFlight });
+          break;
+        default:
+          res.status(200).render("refresh", { processedFlight });
+      }
       // let output = createOutput(processedFlight, resultsOption);
-      res.status(200).render("refresh", { processedFlight });
     })
     .catch(err => {
       console.log(err);

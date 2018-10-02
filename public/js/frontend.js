@@ -78,50 +78,50 @@ if(opertedByCookie === 'on'){
 
 
 
-function selectText(containerid) {
+// function selectText(containerid) {
 
-console.log(containerid);
+// console.log(containerid);
 
-    if (document.selection) {
+//     if (document.selection) {
 
-        var range = document.body.createTextRange();
+//         var range = document.body.createTextRange();
 
-        range.moveToElementText(document.getElementById(containerid));
+//         range.moveToElementText(document.getElementById(containerid));
 
-        range.select();
+//         range.select();
 
-    } else if (window.getSelection()) {
+//     } else if (window.getSelection()) {
 
-        var range = document.createRange();
+//         var range = document.createRange();
 
-        range.selectNode(document.getElementById(containerid));
+//         range.selectNode(document.getElementById(containerid));
 
-        window.getSelection().removeAllRanges();
+//         window.getSelection().removeAllRanges();
 
-        window.getSelection().addRange(range);
+//         window.getSelection().addRange(range);
 
-    }
+//     }
 
-}
-
-
-function doMailTo(addr) {
-    console.log('dddd')
-    location.href = "mailto:"+addr+"?subject=some subject&body="+document.getElementById('selectable').innerText;
-}
+// }
 
 
-const copytarget = document.getElementById("selectable");
-copytarget.addEventListener("click", copyToClipboard);
+// function doMailTo(addr) {
+//     console.log('dddd')
+//     location.href = "mailto:"+addr+"?subject=some subject&body="+document.getElementById('selectable').innerText;
+// }
 
-function copyToClipboard() {
-  var $temp = $("<textarea>");
-  var brRegex = /<br\s*[\/]?>/gi;
-  $("body").append($temp);
-  $temp.val($(copytarget).html().replace(/<\/?[a-zA-Z]+\/?>/g, '').trim()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
+
+// const copytarget = document.getElementById("selectable");
+// copytarget.addEventListener("click", copyToClipboard);
+
+// function copyToClipboard() {
+//   var $temp = $("<textarea>");
+//   var brRegex = /<br\s*[\/]?>/gi;
+//   $("body").append($temp);
+//   $temp.val($(copytarget).html().replace(/<\/?[a-zA-Z]+\/?>/g, '').trim()).select();
+//   document.execCommand("copy");
+//   $temp.remove();
+// }
 
 
 function imgError(image) {

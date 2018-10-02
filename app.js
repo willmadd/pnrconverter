@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const {convertItinerary, getApi, showHomePage} = require('./controllers/convertItinerary');
+const {convertItinerary, getApi, showHomePage, showHomePageEs, showHomePageCn} = require('./controllers/convertItinerary');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
@@ -16,6 +16,10 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.set('view engine', 'ejs');
 
 app.get('/', showHomePage)
+app.get('/es', showHomePageEs)
+app.get('/cn', showHomePageCn)
+app.post('/results/:language',convertItinerary);
+app.get('/results/cn', showHomePageCn)
 app.use('/', express.static('public'));
 
 

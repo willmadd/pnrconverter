@@ -1,0 +1,63 @@
+<div id="blurb">
+
+    <div id="taskbuttonholder">
+        <div class="tasks"><img src="./images/icons/copyicon.svg" height="18">Copy to Clip Board</div>
+        <div class="tasks" onclick="doMailTo('xxx@xxx.com')"><img src="./images/icons/mailicon.svg" height="18">Send to
+            Mail</div>
+        <div class="tasks" onclick="selectText('selectable')"><img src="./images/icons/selecticon.svg" height="18">Select
+            All</div>
+
+    </div>
+    <div class="resultscontainer" id="selectable">
+        <% if (processedFlight.passengers.length > 0){ %>
+            <p>Itinerary For</p>
+        <%    processedFlight.passengers.forEach(name => {%>
+                <%= name %><br/>
+        <%    }) %>
+        <br/>
+        <% } %>
+
+        <% processedFlight.data.forEach((flight,index) => { %>
+        <div id="flightInfoHolder">
+
+            <% if(processedFlight.showImage){ %>
+            <%  include ./airlineimage.ejs %>
+            <% } %>
+
+            <div id="airlineTextHolder">
+                <h4>
+                    <%= flight.lineOne %>
+
+                </h4>
+                <br />
+                <p>
+                    Departing:
+                    <%= flight.formattedDepDest %>
+                    at
+                    <%=flight.hourFormattedDepTime %>
+                    <br />
+
+
+                    Arriving:
+                    <%= flight.formattedArrDest %>
+                    at
+                    <%=flight.hourFormattedArrTime %>
+                </p>
+            </div>
+        </div>
+        <div class="transittimetext">
+            <% if(processedFlight.transit && flight.transitTime){ %>
+            ----------- Transit Time:
+            <%= flight.transitTime %> -----------
+            <% }else if(index!==processedFlight.data.length-1){%>
+            <hr />
+
+            <% } %>
+        </div>
+
+        <% });%>
+    </div>
+
+    <!-- <h1>Two Lines reordered</h1> -->
+
+</div>

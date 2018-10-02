@@ -111,13 +111,19 @@ fieldset{
   /* background-color: blue; */
 }
 
+.navmenuitem a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
 
 }
 
-.navmenuitem img{
+.navmenuitem a img{
   background-color: white;
   margin-right:4px;
   transition: 0.5s
@@ -307,7 +313,7 @@ font-size: 14px;
   background-color: white;
   border-radius: 5px;
   margin:0px;
-  padding:3px;
+  padding:10px;
 }
 
 #airlineTailImage{
@@ -524,3 +530,57 @@ tr:nth-child(even) {
   background-color: #555;
   color: white;
 }
+
+ul{
+  padding:0px;
+  margin: 0px;
+}
+
+
+li {
+  display: block;
+  transition-duration: 0.5s;
+ }
+ 
+ li:hover {
+   cursor: pointer;
+ }
+ 
+ul li{
+  position: relative;;
+}
+
+ ul li ul {
+   top:23px;
+   visibility: hidden;
+   opacity: 0;
+   position: absolute;
+   transition: all 0.5s ease;
+   margin-top: 1rem;
+   left: 0;
+   display: none;
+   z-index: 500;
+   background-color: #19647E;
+   /* padding: 0px 10px; */
+   width: 100%;
+ }
+ 
+ ul li:hover > ul,
+ ul li ul:hover {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+ }
+ 
+ ul li ul li {
+   clear: both;
+   width: 100%;
+ }
+
+ ul li ul li:hover{
+  background-color: #28AFB0;
+ }
+
+ .langImage{
+   background-color: #ec9a29;
+ }

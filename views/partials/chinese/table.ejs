@@ -1,0 +1,135 @@
+<div id="blurb">
+
+    <div id="taskbuttonholder">
+        <button class="tasks" onclick="selectText()">Copy to Clip Board</button>
+        <button class="tasks">Send to Mail</button>
+        <button class="tasks">Select All</button>
+
+    </div>
+
+
+    <div class="resultscontainer" id="selectable">
+        <% if (processedFlight.passengers.length > 0){ %>
+            <p>Itinerary For</p>
+        <%    processedFlight.passengers.forEach(name => {%>
+                <%= name %><br/>
+        <%    }) %>
+        <br/>
+        <% } %>
+
+        <table>
+            <tr>
+                <% if(processedFlight.showImage ==='on'){ %>
+                <th></th>
+                <%} %>
+
+                <% if(processedFlight.airlineNameOption ==='on'){ %>
+                <th>Airline</th>
+                <%} %>
+                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <th>Operated By</th>
+                <%} %> -->
+
+                <th>Flight No</th>
+
+
+                <% if(processedFlight.cabin ==='cabin'){ %>
+                    <th>Cabin</th>
+                    <%} %>
+
+
+                <th>Date</th>
+                <th>Depart</th>
+                <th>From</th>
+                <th>Arrive</th>
+                <th>At</th>
+                <% if(processedFlight.duration ==='on'){ %>
+                <th>Duration</th>
+                <%} %>
+                <th>Distance</th>
+
+                <% if(processedFlight.transit ==='on'){ %>
+                <th>Transit</th>
+                <%} %>
+            </tr>
+            <% processedFlight.data.forEach(flight => { %>
+            <tr>
+                <% if(processedFlight.showImage ==='on'){ %>
+                <td>
+                    <%  include ./airlineimage.ejs %>
+                </td>
+                <%} %>
+                <% if(processedFlight.airlineNameOption ==='on'){ %>
+                <td>
+                    <%= flight.airlineName.name %>
+                    <% if(processedFlight.operatedBy ==='on'){ %>
+                        
+                              <%= flight.operatedBy %>
+                        
+                        <%} %>
+                </td>
+                <%} %>
+                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <td>
+                    <%= flight.operatedBy %>
+                </td>
+                <%} %> -->
+                <td>
+                    <% if(processedFlight.airlineNameOption !=='on'){ %>
+                    <%= flight.airlineName.class %>
+                    <%} %>
+                    <%= flight.flightNo %>
+                    <% if(processedFlight.cabin ==='class'){ %>
+                        <%= flight.bookingClass %>
+                        <%} %>
+                </td>
+
+                <% if(processedFlight.cabin ==='cabin'){ %>
+                    <td><%= flight.bookingCabin %></td>
+                    <%} %>
+
+                <td>
+                    <%= flight.formattedDepTime.nice %>
+                </td>
+                <td>
+                    <%= flight.hourFormattedDepTime %>
+                </td>
+                <td>
+                    <%= flight.formattedDepDest %>
+                </td>
+                <td>
+                    <%= flight.formattedArrDest %>
+                </td>
+                <td>
+                    <%= flight.hourFormattedArrTime %>
+                </td>
+
+                <% if(processedFlight.duration ==='on'){ %>
+                <td>
+                    <%= flight.newFlightDuration.hours %>h
+                    <%= flight.newFlightDuration.minutes %>m</td>
+                <%} %>
+                <td>
+
+
+
+
+                    <%=  flight.formattedDistance %>
+                </td>
+
+                <% if(processedFlight.transit ==='on'){ %>
+                <td>
+                    <%= flight.transitTime %>
+                </td>
+                <%} %>
+
+
+            </tr>
+
+            <%}); %>
+
+        </table>
+    </div>
+
+
+</div>

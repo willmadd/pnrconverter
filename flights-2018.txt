@@ -9268,3 +9268,194 @@ ADD PASSPORT DETAILS IN SSR DOCS AND CONTACT IN SSR CTCM
     airlineName: on
 
     
+    -------Mon Oct 01 2018 17:55:53 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L                
+     OPERATED BY                                                                
+  3  DL9495 H 28AUG 2 BOMAMS HK1        2   405A 940A   789 E0 B                
+     OPERATED BY                                                                
+  4  DL 049 H 28AUG 2 AMSJFK HK1           1055A 110P   333 E0 L   
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 18:01:26 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L            
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 18:02:39 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L            
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 18:04:21 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L            
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 18:05:09 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L            
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 18:06:29 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L                
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Mon Oct 01 2018 20:48:38 GMT+0100 (BST)--::1-----
+       1  DL 048 Q 03JUL 2 JFKAMS HK1        4   743P 915A+1 333 E0 D                
+  2  DL7532 Q 04JUL 3 AMSBOM HK1           1125A1145P   77W E0 L                
+     OPERATED BY                                                                
+  3  DL9495 H 28AUG 2 BOMAMS HK1        2   405A 940A   789 E0 B                
+     OPERATED BY                                                                
+  4  DL 049 H 28AUG 2 AMSJFK HK1           1055A 110P   333 E0 L    
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 08:59:32 GMT+0100 (BST)--::1-----
+      1  UA1077 Y 28MAY 1 MSYIAH HK1            657A 815A   *1A/E*                  
+                                                      A01                       
+  2  UA1933 Y 28MAY 1 IAHPUJ HK1        E   950A 310P   *1A/E*                  
+                                                      A01                       
+  3  UA1518 E 04JUN 1 PUJEWR HK1        A   155P 615P   *1A/E*                  
+                                                      A02                       
+  4  UA 904 E 04JUN 1 EWRMSY HK1        C   728P 937P
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 08:59:37 GMT+0100 (BST)--::1-----
+      1  UA1077 Y 28MAY 1 MSYIAH HK1            657A 815A   *1A/E*                  
+                                                      A01                       
+  2  UA1933 Y 28MAY 1 IAHPUJ HK1        E   950A 310P   *1A/E*                  
+                                                      A01                       
+  3  UA1518 E 04JUN 1 PUJEWR HK1        A   155P 615P   *1A/E*                  
+                                                      A02                       
+  4  UA 904 E 04JUN 1 EWRMSY HK1        C   728P 937P
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:12:00 GMT+0100 (BST)--::1-----
+       1  DL2518 E 13JUL 5 DTWMCO DK1   820A1053A 13JUL  E  0 739 V                  
+     SEE RTSVC                                                                  
+  2  DL1424 E 22JUL 7 MCODTW DK1   155P 443P 22JUL  E  0 739 V         
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:13:06 GMT+0100 (BST)--::1-----
+       1  DL2518 E 13JUL 5 DTWMCO DK1   820A1053A 13JUL  E  0 739 V                  
+     SEE RTSVC                                                                  
+  2  DL1424 E 22JUL 7 MCODTW DK1   155P 443P 22JUL  E  0 739 V         
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:14:09 GMT+0100 (BST)--::1-----
+       1  TK 008 U 29MAY 2*IADIST DK1  1100P 415P 30MAY  E  0 333 M                  
+  2  TK 714 U 30MAY 3*ISTLHE DK1   825P 345A 31MAY  E  0 333 M                  
+  3  TK 715 Q 04JUL 3*LHEIST DK1   515A 930A 04JUL  E  0 333 M                  
+  4  TK 007 Q 04JUL 3*ISTIAD DK1   245P 725P 04JUL  E  0 333 M    
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
