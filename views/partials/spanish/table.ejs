@@ -9,9 +9,9 @@
 
 
     <div class="resultscontainer" id="selectable">
-        <% if (processedFlight.passengers.length > 0){ %>
+        <% if (esProcessedFlight.passengers.length > 0){ %>
             <p>Itinerary For</p>
-        <%    processedFlight.passengers.forEach(name => {%>
+        <%    esProcessedFlight.passengers.forEach(name => {%>
                 <%= name %><br/>
         <%    }) %>
         <br/>
@@ -19,75 +19,75 @@
 
         <table>
             <tr>
-                <% if(processedFlight.showImage ==='on'){ %>
+                <% if(esProcessedFlight.showImage ==='on'){ %>
                 <th></th>
                 <%} %>
 
-                <% if(processedFlight.airlineNameOption ==='on'){ %>
+                <% if(esProcessedFlight.airlineNameOption ==='on'){ %>
                 <th>Airline</th>
                 <%} %>
-                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <!-- <% if(esProcessedFlight.operatedBy ==='on'){ %>
                 <th>Operated By</th>
                 <%} %> -->
 
-                <th>Flight No</th>
+                <th>Número de Vuelo</th>
 
 
-                <% if(processedFlight.cabin ==='cabin'){ %>
-                    <th>Cabin</th>
+                <% if(esProcessedFlight.cabin ==='cabin'){ %>
+                    <th>Clase de Vuelo</th>
                     <%} %>
 
 
-                <th>Date</th>
-                <th>Depart</th>
-                <th>From</th>
-                <th>Arrive</th>
-                <th>At</th>
-                <% if(processedFlight.duration ==='on'){ %>
-                <th>Duration</th>
+                <th>Fecha</th>
+                <th>Salir</th>
+                <th>De</th>
+                <th>Llegada	</th>
+                <th>A</th>
+                <% if(esProcessedFlight.duration ==='on'){ %>
+                <th>Duración</th>
                 <%} %>
 
-                <% if(processedFlight.distance!=='Off'){ %>
-                <th>Distance</th>
+                <% if(esProcessedFlight.distance !== 'Off'){ %>
+                <th>Distancia</th>
                 <%} %>
 
-                <% if(processedFlight.transit ==='on'){ %>
-                <th>Transit</th>
+                <% if(esProcessedFlight.transit ==='on'){ %>
+                <th>Tránsito</th>
                 <%} %>
             </tr>
-            <% processedFlight.data.forEach(flight => { %>
+            <% esProcessedFlight.data.forEach(flight => { %>
             <tr>
-                <% if(processedFlight.showImage ==='on'){ %>
+                <% if(esProcessedFlight.showImage ==='on'){ %>
                 <td>
                     <%  include ./airlineimage.ejs %>
                 </td>
                 <%} %>
-                <% if(processedFlight.airlineNameOption ==='on'){ %>
+                <% if(esProcessedFlight.airlineNameOption ==='on'){ %>
                 <td>
                     <%= flight.airlineName.name %>
-                    <% if(processedFlight.operatedBy ==='on'){ %>
+                    <% if(esProcessedFlight.operatedBy ==='on'){ %>
                         
                               <%= flight.operatedBy %>
                         
                         <%} %>
                 </td>
                 <%} %>
-                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <!-- <% if(esProcessedFlight.operatedBy ==='on'){ %>
                 <td>
                     <%= flight.operatedBy %>
                 </td>
                 <%} %> -->
                 <td>
-                    <% if(processedFlight.airlineNameOption !=='on'){ %>
+                    <% if(esProcessedFlight.airlineNameOption !=='on'){ %>
                     <%= flight.airlineName.class %>
                     <%} %>
                     <%= flight.flightNo %>
-                    <% if(processedFlight.cabin ==='class'){ %>
+                    <% if(esProcessedFlight.cabin ==='class'){ %>
                         <%= flight.bookingClass %>
                         <%} %>
                 </td>
 
-                <% if(processedFlight.cabin ==='cabin'){ %>
+                <% if(esProcessedFlight.cabin ==='cabin'){ %>
                     <td><%= flight.bookingCabin %></td>
                     <%} %>
 
@@ -107,18 +107,24 @@
                     <%= flight.hourFormattedArrTime %>
                 </td>
 
-                <% if(processedFlight.duration ==='on'){ %>
+                <% if(esProcessedFlight.duration ==='on'){ %>
                 <td>
                     <%= flight.newFlightDuration.hours %>h
                     <%= flight.newFlightDuration.minutes %>m</td>
                 <%} %>
-                <% if(processedFlight.distance !== 'Off'){ %>
+                
+                
+
+                <% if(esProcessedFlight.distance !== 'Off'){ %>
                     <td>
                         <%=  flight.formattedDistance %>
                     </td>
                     <%} %>
 
-                <% if(processedFlight.transit ==='on'){ %>
+                
+
+
+                <% if(esProcessedFlight.transit ==='on'){ %>
                 <td>
                     <%= flight.transitTime %>
                 </td>

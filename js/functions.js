@@ -244,12 +244,14 @@ exports.formatDate = (date, time, flightLine) => {
     s.format("year") +
     " " +
     s.format("time-h24");
+    china=s.format("Y")+"年"+s.format("m")+"月"+s.format("d")+"日";
   return {
     full: newFDate,
     nice: newNiceDate,
     time12: twelveHoursTime,
     time24: twentyFourHoursTime,
-    spaceTime: spaceTime
+    spaceTime: spaceTime,
+    china
   };
 };
 
@@ -476,8 +478,9 @@ exports.formatLocation = line => {
     distance,
     operatedBy
   ) => {
+    console.log(optionsObject)
     return (
-      depDate.nice +
+      (optionsObject.language==="cn"?depDate.china:depDate.nice)+
       " - " +
       (optionsObject.airlineName !== undefined
         ? airlineName.name

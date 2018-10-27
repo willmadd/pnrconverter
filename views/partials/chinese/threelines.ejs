@@ -9,18 +9,18 @@
 
     </div>
     <div class="resultscontainer" id="selectable">
-        <% if (processedFlight.passengers.length > 0){ %>
-            <p>Itinerary For</p>
-        <%    processedFlight.passengers.forEach(name => {%>
+        <% if (cnProcessedFlight.passengers.length > 0){ %>
+            <p>行程安排</p>
+        <%    cnProcessedFlight.passengers.forEach(name => {%>
                 <%= name %><br/>
         <%    }) %>
         <br/>
         <% } %>
 
-        <% processedFlight.data.forEach((flight,index) => { %>
+        <% cnProcessedFlight.data.forEach((flight,index) => { %>
         <div id="flightInfoHolder">
 
-            <% if(processedFlight.showImage){ %>
+            <% if(cnProcessedFlight.showImage){ %>
             <%  include ./airlineimage.ejs %>
             <% } %>
 
@@ -46,10 +46,10 @@
             </div>
         </div>
         <div class="transittimetext">
-            <% if(processedFlight.transit && flight.transitTime){ %>
+            <% if(cnProcessedFlight.transit && flight.transitTime){ %>
             ----------- Transit Time:
             <%= flight.transitTime %> -----------
-            <% }else if(index!==processedFlight.data.length-1){%>
+            <% }else if(index!==cnProcessedFlight.data.length-1){%>
             <hr />
 
             <% } %>

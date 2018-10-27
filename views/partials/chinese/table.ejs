@@ -9,9 +9,9 @@
 
 
     <div class="resultscontainer" id="selectable">
-        <% if (processedFlight.passengers.length > 0){ %>
+        <% if (cnProcessedFlight.passengers.length > 0){ %>
             <p>Itinerary For</p>
-        <%    processedFlight.passengers.forEach(name => {%>
+        <%    cnProcessedFlight.passengers.forEach(name => {%>
                 <%= name %><br/>
         <%    }) %>
         <br/>
@@ -19,77 +19,77 @@
 
         <table>
             <tr>
-                <% if(processedFlight.showImage ==='on'){ %>
+                <% if(cnProcessedFlight.showImage ==='on'){ %>
                 <th></th>
                 <%} %>
 
-                <% if(processedFlight.airlineNameOption ==='on'){ %>
-                <th>Airline</th>
+                <% if(cnProcessedFlight.airlineNameOption ==='on'){ %>
+                <th>航空公司</th>
                 <%} %>
-                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <!-- <% if(cnProcessedFlight.operatedBy ==='on'){ %>
                 <th>Operated By</th>
                 <%} %> -->
 
-                <th>Flight No</th>
+                <th>航班編號</th>
 
 
-                <% if(processedFlight.cabin ==='cabin'){ %>
+                <% if(cnProcessedFlight.cabin ==='cabin'){ %>
                     <th>Cabin</th>
                     <%} %>
 
 
-                <th>Date</th>
-                <th>Depart</th>
-                <th>From</th>
-                <th>Arrive</th>
-                <th>At</th>
-                <% if(processedFlight.duration ==='on'){ %>
-                <th>Duration</th>
+                <th>日期</th>
+                <th>離開時間</th>
+                <th>離境機場</th>
+                <th>到達時間</th>
+                <th>目的地機場</th>
+                <% if(cnProcessedFlight.duration ==='on'){ %>
+                <th>飛行時間</th>
                 <%} %>
-                <th>Distance</th>
+                <th>距離</th>
 
-                <% if(processedFlight.transit ==='on'){ %>
+                <% if(cnProcessedFlight.transit ==='on'){ %>
                 <th>Transit</th>
                 <%} %>
             </tr>
-            <% processedFlight.data.forEach(flight => { %>
+            <% cnProcessedFlight.data.forEach(flight => { %>
             <tr>
-                <% if(processedFlight.showImage ==='on'){ %>
+                <% if(cnProcessedFlight.showImage ==='on'){ %>
                 <td>
                     <%  include ./airlineimage.ejs %>
                 </td>
                 <%} %>
-                <% if(processedFlight.airlineNameOption ==='on'){ %>
+                <% if(cnProcessedFlight.airlineNameOption ==='on'){ %>
                 <td>
                     <%= flight.airlineName.name %>
-                    <% if(processedFlight.operatedBy ==='on'){ %>
+                    <% if(cnProcessedFlight.operatedBy ==='on'){ %>
                         
                               <%= flight.operatedBy %>
                         
                         <%} %>
                 </td>
                 <%} %>
-                <!-- <% if(processedFlight.operatedBy ==='on'){ %>
+                <!-- <% if(cnProcessedFlight.operatedBy ==='on'){ %>
                 <td>
                     <%= flight.operatedBy %>
                 </td>
                 <%} %> -->
                 <td>
-                    <% if(processedFlight.airlineNameOption !=='on'){ %>
+                    <% if(cnProcessedFlight.airlineNameOption !=='on'){ %>
                     <%= flight.airlineName.class %>
                     <%} %>
                     <%= flight.flightNo %>
-                    <% if(processedFlight.cabin ==='class'){ %>
+                    <% if(cnProcessedFlight.cabin ==='class'){ %>
                         <%= flight.bookingClass %>
                         <%} %>
                 </td>
 
-                <% if(processedFlight.cabin ==='cabin'){ %>
+                <% if(cnProcessedFlight.cabin ==='cabin'){ %>
                     <td><%= flight.bookingCabin %></td>
                     <%} %>
 
                 <td>
-                    <%= flight.formattedDepTime.nice %>
+                    <%= flight.formattedDepTime.china %>
                 </td>
                 <td>
                     <%= flight.hourFormattedDepTime %>
@@ -104,7 +104,7 @@
                     <%= flight.hourFormattedArrTime %>
                 </td>
 
-                <% if(processedFlight.duration ==='on'){ %>
+                <% if(cnProcessedFlight.duration ==='on'){ %>
                 <td>
                     <%= flight.newFlightDuration.hours %>h
                     <%= flight.newFlightDuration.minutes %>m</td>
@@ -117,7 +117,7 @@
                     <%=  flight.formattedDistance %>
                 </td>
 
-                <% if(processedFlight.transit ==='on'){ %>
+                <% if(cnProcessedFlight.transit ==='on'){ %>
                 <td>
                     <%= flight.transitTime %>
                 </td>

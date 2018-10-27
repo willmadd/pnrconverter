@@ -2,6 +2,8 @@
 
 const util = require('util')
 
+
+
 const {
   getTransitTime,
   getAirlineName,
@@ -38,20 +40,121 @@ exports.showHomePage = (req, res, next) => {
 };
 
 exports.showHomePageEs = (req, res, next) => {
-  let processedFlight = {};
-  processedFlight.renderOutput = "home";
-  console.log(processedFlight);
-  res.status(200).render("spanish", { processedFlight });
+  let esProcessedFlight = {};
+  esProcessedFlight.renderOutput = "home";
+  res.status(200).render("spanish", { esProcessedFlight });
 };
 
 exports.showHomePageCn = (req, res, next) => {
-  let processedFlight = {};
-  processedFlight.renderOutput = "home";
-  console.log(processedFlight);
-  res.status(200).render("chinese", { processedFlight });
+  let cnProcessedFlight = {};
+  cnProcessedFlight.renderOutput = "home";
+  res.status(200).render("chinese", { cnProcessedFlight });
 };
 
+spanishTranslate = (processedFlight) => {
+  let spanishProcessedFlight = {
+    ...processedFlight,
+    data: processedFlight.data.map(flightLine => {
+      return {
+        ...flightLine,
+        lineOne: esTrans(flightLine.lineOne),
+        bookingCabin: esTrans(flightLine.bookingCabin),
+        formattedDistance: esTrans(flightLine.formattedDistance),
+        hourFormattedArrTime: esTrans(flightLine.hourFormattedArrTime),
+        formattedDepTime:{
+          ...flightLine.formattedDepTime,
+          nice: esTrans(flightLine.formattedDepTime.nice)
+        },
+        formattedArrTime:{
+          ...flightLine.formattedArrTime,
+          nice: esTrans(flightLine.formattedArrTime.nice)
+        }
+        
+      } 
+    })
+  }
+return spanishProcessedFlight
+}
+
+esTrans = (line)=>{
+  return line
+        .replace(/\bMon\b/gi,'Dom')
+        .replace(/\bJan\b/gi,"enero")
+				.replace(/\bFeb\b/gi,"feb")
+				.replace(/\bMar\b/gi,"marzo")
+				.replace(/\bApr\b/gi,"abr")
+				.replace(/\bMay\b/gi,"mayo")
+				.replace(/\bJun\b/gi,"jun")
+				.replace(/\bJul\b/gi,"jul")
+				.replace(/\bAug\b/gi,"agosto")
+				.replace(/\bSep\b/gi,"sept")
+				.replace(/\bOct\b/gi,"oct")
+				.replace(/\bNov\b/gi,"nov")
+				.replace(/\bDec\b/gi,"dic")
+
+				.replace(/\bMon\b/gi,"Lun")
+				.replace(/\bTue\b/gi,"Mar")
+				.replace(/\bWed\b/gi,"Mié")
+				.replace(/\bThu\b/gi,"Jue")
+				.replace(/\bFri\b/gi,"Vie")
+				.replace(/\bSat\b/gi,"Sáb")
+        .replace(/\bSun\b/gi,"Dom")
+
+        .replace(/\bMiles\b/gi,"Millas")
+
+        .replace(/\bEconomy\b/gi,"Turista")
+				.replace(/\bPremium Economy\b/gi,"Turista superior")
+				.replace(/\bBusiness\b/gi,"Clase Business")
+        .replace(/\bFirst\b/gi,"Primera Clase")
+
+        .replace(/\bon\sthe\b/gi,"el")
+        .replace(/\(on\s/gi,"(el ")
+        .replace(/\bOperated\sBy\b/gi,"operado por")
+        .replace(/st\s|rd\s|th\s/gi," ")
+}
+
+
+chineseTranslate = (processedFlight) => {
+  let chineseProcessedFlight = {
+    ...processedFlight,
+    data: processedFlight.data.map(flightLine => {
+      return {
+        ...flightLine,
+        lineOne: cnTrans(flightLine.lineOne),
+        bookingCabin: cnTrans(flightLine.bookingCabin),
+        formattedDistance: cnTrans(flightLine.formattedDistance),
+        hourFormattedArrTime: cnTrans(flightLine.hourFormattedArrTime),
+        formattedDepTime:{
+          ...flightLine.formattedDepTime,
+          nice: cnTrans(flightLine.formattedDepTime.nice)
+        },
+        formattedArrTime:{
+          ...flightLine.formattedArrTime,
+          nice: cnTrans(flightLine.formattedArrTime.nice)
+        }
+        
+      } 
+    })
+  }
+return chineseProcessedFlight
+}
+
+cnTrans = (line)=>{
+  return line
+   .replace("Miles","英里")
+   .replace(/\bkm\b/, " 千米 ")
+   .replace("h","時")
+   .replace(/\sm\s/,"分")
+ .replace("Economy","經濟客艙")
+ .replace("Premium Economy","特選濟客艙")
+ .replace("Business","商務客艙")
+ .replace("First","頭等客艙");
+}
+
+
+
 exports.convertItinerary = (req, res, next) => {
+  const starttime = new Date().getTime();
   let flightData = req.body.dataInput;
   let language = req.params.language;
 
@@ -75,6 +178,7 @@ exports.convertItinerary = (req, res, next) => {
 
   console.log(req.body);
 
+  optionsObject.language = language;
 
   let airlineNameOption = req.body.airlinename
   res.cookie("airlineName", airlineNameOption);
@@ -109,6 +213,9 @@ exports.convertItinerary = (req, res, next) => {
   res.cookie("operatedBy", operatedByOption);
   optionsObject.operatedby = operatedByOption;
 
+  // console.log(optionsObject);
+
+
   let toWrite = "";
 
   if (flightData) {
@@ -138,6 +245,7 @@ exports.convertItinerary = (req, res, next) => {
   processedFlight.transit = transitOption;
   processedFlight.duration = durationOption;
   processedFlight.cabin = cabinOption;
+  processedFlight.distance = req.body.distanceradio;
   processedFlight.data = [];
   processedFlight.passengers = []
 
@@ -246,7 +354,7 @@ console.log(processedFlight.passengers)
       let airlineData = result.slice(0, result.length / 2);
       let airportData = result.slice(result.length / 2);
 
-console.log(airportData)
+// console.log(airportData)
 
       airlineData.forEach((flightLine, index) => {
         let bookingClass = getbookingClass(flightData[index]);
@@ -360,12 +468,21 @@ console.log(airportData)
         // console.log(util.inspect(processedFlight, {showHidden: false, depth: null}))
 
         // console.log(processedFlight);
+        const endtime = new Date().getTime();
+        console.log(endtime-starttime)
+
       });
       
       
       switch (language){
         case 'cn':
-          res.status(200).render("chinese", { processedFlight });
+        let cnProcessedFlight = chineseTranslate(processedFlight);
+        console.log(cnProcessedFlight.data[0].formattedDepTime.china);
+          res.status(200).render("chinese", { cnProcessedFlight });
+          break;
+          case 'es':
+        let esProcessedFlight = spanishTranslate(processedFlight)
+          res.status(200).render("spanish", { esProcessedFlight });
           break;
         default:
           res.status(200).render("refresh", { processedFlight });

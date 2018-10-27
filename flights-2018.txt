@@ -9459,3 +9459,3979 @@ ADD PASSPORT DETAILS IN SSR DOCS AND CONTACT IN SSR CTCM
     airlineName: on
 
     
+    -------Tue Oct 02 2018 09:53:55 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:54:57 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:55:00 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: Off
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:55:04 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:55:08 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:57:21 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: miles
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 09:57:58 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: on
+    cabin: off
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 10:28:12 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 10:29:29 GMT+0100 (BST)--::1-----
+    1  AF  /AZ    9830  I 19OCT F  JFK  FCO 0425P 0650A 
+OPERATED BY ALITALIA S.P.A. IN A.S                  
+1  AZ         1777  Y 20OCT J  FCO  PMO 0825A 0930A 
+2  AZ         1768  Y 26OCT F  PMO  LIN 0620A 0755A 
+2  AF  /AZ    9783  I 26OCT F  MXP  JFK 1240P 0355P 
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: on
+
+    
+    -------Tue Oct 02 2018 20:59:04 GMT+0100 (BST)--::1-----
+     NYTFUP
+ 1.1WAGNER/PETER MR
+ 1 QF   1S 26JUN 3 SYDLHR HK1  1555  0655   27JUN 4
+                                               
+ 2 BA 304S 30JUL 2 LHRCDG HK1  0720  0935  
+ 3 EK  72L 02AUG 5 CDGDXB*HK1  1125  2000  
+ 4 EK 416L 02AUG 5 DXBSYD*HK1  2130  1720   03AUG 6
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 20:59:34 GMT+0100 (BST)--::1-----
+     NYTFUP
+ 1.1WAGNER/PETER MR
+ 1 QF   1S 26JUN 3 SYDLHR HK1  1555  0655   27JUN 4
+                                               
+ 2 BA 304S 30JUL 2 LHRCDG HK1  0720  0935  
+ 3 EK  72L 02AUG 5 CDGDXB*HK1  1125  2000  
+ 4 EK 416L 02AUG 5 DXBSYD*HK1  2130  1720   03AUG 6
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:00:00 GMT+0100 (BST)--::1-----
+     NYTFUP
+ 1.1WAGNER/PETER MR
+ 1 QF   1S 26JUN 3 SYDLHR HK1  1555  0655   27JUN 4
+                                               http://localhost:8080/es
+ 2 BA 304S 30JUL 2 LHRCDG HK1  0720  0935  
+ 3 EK  72L 02AUG 5 CDGDXB*HK1  1125  2000  
+ 4 EK 416L 02AUG 5 DXBSYD*HK1  2130  1720   03AUG 6
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:00:16 GMT+0100 (BST)--::1-----
+       2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 L 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 L 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 15NOV 4 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 L 16NOV 5 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 L 16NOV 5 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 16NOV 5 YVRYEG HK1        M   135P 407P   *1A/E*
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:00:33 GMT+0100 (BST)--::1-----
+       2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 L 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 L 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 15NOV 4 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 L 16NOV 5 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 L 16NOV 5 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 16NOV 5 YVRYEG HK1        M   135P 407P   *1A/E*
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:01:02 GMT+0100 (BST)--::1-----
+       2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 L 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 L 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 15NOV 4 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 L 16NOV 5 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 L 16NOV 5 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 16NOV 5 YVRYEG HK1        M   135P 407P   *1A/E*
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:01:15 GMT+0100 (BST)--::1-----
+       2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 L 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 L 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 15NOV 4 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 L 16NOV 5 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 L 16NOV 5 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 16NOV 5 YVRYEG HK1        M   135P 407P   *1A/E*
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:01:32 GMT+0100 (BST)--::1-----
+      1 . QR  921 I  29SEP AKLDOH HS1  1425   2305  O         E SA    1   
+ 2 . QR  147 I  30SEP DOHMAD HS1  0135   0815  O         E SU    1   
+ 3 . UX 4049 T  30SEP MADALC HS1  1450   1610  O         E SU        
+         OPERATED BY SWIFTAIR
+ 4 . IB 8393 J  05OCT ALCMAD HS1  1325   1435  O           FR        
+         OPERATED BY AIR NOSTRUM LAM SA
+ 5 . QR  150 J  05OCT MADDOH HS1  1710  #0055  O         E FR/SA 2   
+ 6 . QR  920 J  06OCT DOHAKL HS1  0235  #0505  O         E SA/SU 2   
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:01:45 GMT+0100 (BST)--::1-----
+     3 BA3289O 03JUN 1 LCYGRX SS1  0910  1250  /DCBA /E
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:05 GMT+0100 (BST)--::1-----
+     3 BA3289O 03JUN 1 LCYGRX SS1  0910  1250  /DCBA /E
+OPERATED BY BA CITYFLYER
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:19 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:35 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:36 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:36 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:36 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:38 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:38 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:38 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:38 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:39 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:39 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:02:39 GMT+0100 (BST)--::1-----
+      2  AC 239 K 20OCT 6 YEGYVR HK1           1020A1055A   *1A/E*                  
+  3  CA 992 W 20OCT 6 YVRPEK HK1        M   150P 330P+1 *1A/E*                  
+  4  CA 889 W 21OCT 7 PEKBOM HK1        3   740P 100A+1 *1A/E*                  
+  5  6E 213 Y 22OCT 1 BOMAMD GK1        1   735A 850A   T                       
+  6  6E 313 Y 22JAN 2 AMDBOM GK1        1   640P 810P   T                       
+  7  CA 890 W 23JAN 3 BOMPEK HK1        2   235A1125A   *1A/E*                  
+  8  CA 991 W 23JAN 3 PEKYVR HK1        3   320P1000A   *1A/E*                  
+  9  AC 242 K 23JAN 3 YVRYEG HK1        M   135P 407P   *1A/E*
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:03:18 GMT+0100 (BST)--::1-----
+      1 . UA 6804 D  28OCT AKLIAH HS1  1930   1505  O         E SU    1   
+         OPERATED BY AIR NEW ZEALAND LIMITED
+ 2 . UA  480 D  28OCT IAHFLL HS1  1705   2029  O         E SU    1   
+ 3 . UA  832 W  02NOV FLLIAH HS1  1505   1655  O         E FR        
+ 4 . UA 1541 P  02NOV IAHSFO HS1  1820   2025  O         E FR        
+ 5 . UA  917 P  02NOV SFOAKL HS1  2245  *0755  O         E FR/SU  
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:03:40 GMT+0100 (BST)--::1-----
+     KU 118 M 03NOV 6 JFKKWI DK1   925P 405P 04NOV  E  0 77W M                  
+     ISRAELI PPT HOLDERS NOT ALLOWED ON KU                                      
+     CHECK IN CLOSES 60 MIN BEFORE DEPARTURE                                    
+     FULL API INFORMATION REQUIRED                                              
+     SEE RTSVC                                                                  
+  2  KU 301 M 04NOV 7 KWIBOM DK1   855P 305A 05NOV  E  0 320 M                  
+     ISRAELI PPT HOLDERS NOT ALLOWED ON KU                                      
+     CHECK IN CLOSES 60 MIN BEFORE DEPARTURE                                    
+     FULL API INFORMATION REQUIRED                                              
+     SEE RTSVC                                                                  
+  3 RM NOTIFY PASSENGER PRIOR TO TICKET PURCHASE & CHECK-IN:                    
+       FEDERAL LAWS FORBID THE CARRIAGE OF HAZARDOUS MATERIALS -                
+       GGAMAU
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:04:00 GMT+0100 (BST)--::1-----
+      1.LAWRENCE/JASMIN MISS(ADT)                                                   
+  2  QF8468 O 03JUL 3 NPEAKL HK1  1110 1215  03JUL  E  QF/OW25UQ                
+     OPERATED BY SUBSIDIARY/FRANCHISE                                           
+  3  QF 126 O 03JUL 3 AKLBNE HK1  1625 1820  03JUL  E  QF/OW25UQ                
+  4  QF8435 O 03JUL 3 BNEDXB HK1  2100 0510  04JUL  E  QF/OW25UQ                
+     OPERATED BY EMIRATES                                                       
+  5  QF8003 O 07JUL 7 DXBLHR HK1  1415 1840  07JUL  E  QF/OW25UQ                
+     OPERATED BY EMIRATES                                                       
+  6  QF 002 L 25JUL 4*LHRSYD HK1  2115 0510  27JUL  E  QF/OW25UQ                
+  7  QF 143 L 27JUL 6*SYDAKL HK1  0955 1500  27JUL  E  QF/OW25UQ                
+  8  QF8467 L 27JUL 6 AKLNPE HK1  1650 1750  27JUL  E  QF/OW25UQ     
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:04:24 GMT+0100 (BST)--::1-----
+       1  DL5106 V 12DEC 3 DTWJFK GK1        EM 1215P 212P   T                       
+     OPERATED BY SUBSIDIARY/FRANCHISE                                           
+  2  AF 007 V 12DEC 3 JFKCDG GK1   540P 1   640P 800A+1 T                       
+  3  AF6792 V 13DEC 4 CDGMAA GK1   910A 2C 1010A1215A+1 T                       
+     OPERATED BY                                                                
+  4  6E 305 Y 14DEC 5 MAANAG GK1        1   210P 355P   T                       
+  5  6E 314 Y 09JAN 3 NAGMAA GK1            455P 640P   T                       
+  6  AF6791 R 10JAN 4 MAACDG GK1  1245A 3   145A 810A   T                       
+     OPERATED BY                                                                
+  7  AF 136 R 10JAN 4 CDGORD GK1  1035A 2E 1135A 155P   T                       
+  8  DL2816 X 10JAN 4 ORDDTW GK1        2   441P 709P   T  
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:05:02 GMT+0100 (BST)--::1-----
+       FJ 910 Q 07OCT 7 SYDNAN DK4  1400 1850  07OCT  E  0 332 H                  
+     ADD PAX CTCE CTCM PER IATA RES 830D                                        
+     CHECKIN COUNTERS CLOSE 1HR BEFORE DEPARTURE                                
+     PRE BOOKED SEATS SUBJECT TO CHANGE AT CHECKIN                              
+     NON SMOKING FLIGHT                                                         
+     SEE RTSVC                                                                  
+  2  FJ 810 Q 07OCT 7 NANLAX DK4  2100 1245  07OCT  E  0 332 BH                 
+     ADD PAX CTCE CTCM PER IATA RES 830D                                        
+     MANDATORY NAME GENDER DOB REQMNTS REFER US SECURE                          
+     FLIGHT PLUS MANDATORY US VISA REQMNTS REFER ESTA                           
+     PRE BOOKED SEATS SUBJECT TO CHANGE AT CHECKIN                              
+     SEE RTSVC                                                                  
+  3  FJ 811 Q 11OCT 4 LAXNAN DK4  2330 0550  13OCT  E  0 333 BH                 
+     ADD PAX CTCE CTCM PER IATA 830D                                            
+     MANDATORY NAME GENDER DOB REQMNTS REFER US SECURE                          
+     FLIGHT PLUS MANDATORY US VISA REQMNTS REFER ESTA                           
+     PRE BOOKED SEATS SUBJECT TO CHANGE AT CHECKIN                              
+     NON SMOKING FLIGHT                                                         
+     SEE RTSVC                                                                  
+  4  FJ 911 Q 16OCT 2 NANSYD DK4  0900 1245  16OCT  E  0 333 B                  
+
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:05:20 GMT+0100 (BST)--::1-----
+       1.1GREEN/MEGAN                              
+ 1. BR  316 D  17OCT BNETPE HK1  2215  #0515  
+ 2. BR   67 D  18OCT TPELHR HK1  0900   1925  
+ 3. BR   68 D  29OCT LHRTPE HK1  2120  #2145  
+ 4. BR  315 D  30OCT TPEBNE HK1  2320  #1020  
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:05:39 GMT+0100 (BST)--::1-----
+      1  LH 757 T 04NOV 7 BOMFRA HK1        2   255A 720A   74H E0 M
+  2  LH 426 T 04NOV 7 FRAPHL HK1        1  1255P 410P   333 E0 M
+  3  LH 427 K 01JAN 2 PHLFRA HK1        A   545P 735A+1 333 E0 M
+  4  LH 756 K 02JAN 3 FRABOM HK1        1  1230P 100A+1 744 E0 M
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:06:11 GMT+0100 (BST)--::1-----
+     1 VA   1W 10OCT 3 SYDLAX*SS1  1030  0605  /DCVA /E             
+OPERATED BY VIRGIN AUST INTL                                    
+ 2 VA6516Y 10OCT 3 LAXJFK*SS1  0930  1812  /DCVA /E             
+OPERATED BY DELTA AIR LINES INC                                 
+ 3 VA6457Y 25OCT 4 JFKLAX*SS1  1815  2135  /DCVA /E             
+OPERATED BY DELTA AIR LINES INC                                 
+ 4 VA   2W 25OCT 4 LAXSYD*SS1  2345  0830   27OCT 6 /DCVA /E    
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:06:56 GMT+0100 (BST)--::1-----
+      1  DL8667 V 07OCT 7*IAHCDG DK1   345P 815A 08OCT  E  0 77W D                  
+     OPERATED BY                                                                
+  2  DL7575 V 08OCT 1*CDGBOM DK1  1135A1210A 09OCT  E  0 77W L                  
+     OPERATED BY                                                                
+  3  DL7554 V 09OCT 2*BOMHYD DK1   710A 830A 09OCT  E  0 73H B                  
+     OPERATED BY                                                                
+  4  DL7555 V 03DEC 1*HYDBOM DK1   940P1115P 03DEC  E  0 738 D                  
+     OPERATED BY                                                                
+  5  DL7533 V 04DEC 2*BOMAMS DK1   245A 755A 04DEC  E  0 77W B                  
+     OPERATED BY                                                                
+  6  DL9386 V 04DEC 2*AMSIAH DK1  1005A 145P 04DEC  E  0 789 B                  
+     OPERATED BY                                                                
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:40:00 GMT+0100 (BST)--::1-----
+       2  LA7729 O 01NOV 4 CRDAEP HK1  0245 0459  01NOV  E  LA/WWJZJH                
+  3  LA7728 O 04NOV 7 AEPCRD HK1  2335 0211  05NOV  E  LA/WWJZJH     
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:42:14 GMT+0100 (BST)--::1-----
+     UA  /**    5034  Y 03NOV J  FWA  ORD 0640A 0656A
+RATED BY /SKYWEST DBA UNITED EXPRESS            
+UA          710  Y 03NOV J  ORD  SJD 0800A 1041A
+UA         1453  B 08NOV Q  SJD  IAH 0246P 0614P
+UA         1593  B 08NOV Q  IAH  RSW 0815P 1127P
+UA         1738  V 11NOV S  RSW  ORD 0145P 0342P
+UA  /**    5011  V 11NOV S  ORD  FWA 0435P 0645P
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:42:20 GMT+0100 (BST)--::1-----
+     UA  /**    5034  Y 03NOV J  FWA  ORD 0640A 0656A
+RATED BY /SKYWEST DBA UNITED EXPRESS            
+UA          710  Y 03NOV J  ORD  SJD 0800A 1041A
+UA         1453  B 08NOV Q  SJD  IAH 0246P 0614P
+UA         1593  B 08NOV Q  IAH  RSW 0815P 1127P
+UA         1738  V 11NOV S  RSW  ORD 0145P 0342P
+UA  /**    5011  V 11NOV S  ORD  FWA 0435P 0645P
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:42:54 GMT+0100 (BST)--::1-----
+     2 DL1298P 20DEC 4 LAXKOA TK3  1815  2202  HRS /DCDL*HIA9TW /E  
+ 3 HA  62P 27DEC 4 KOALAX HK3  1625  2340  HRS /DCHA*QZHXMF /E  
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Tue Oct 02 2018 21:43:33 GMT+0100 (BST)--::1-----
+     TG 603X 14OCT SU HKGBKK SS2 0745  0925 /O $ E
+ 2  TG 638X 17OCT WE BKKHKG SS2 1355  1740 /O $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 19:54:21 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 19:54:29 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 19:55:02 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 19:56:22 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 20:56:55 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 20:59:11 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:00:51 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:03:57 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:04:47 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:05:06 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:05:21 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:05:46 GMT+0100 (BST)--::1-----
+     1 VA  43E 31DEC 1 BNEDPS SS4  1010  1425  /DCVA /E
+OPERATED BY VIRGIN AUST INTL
+ 2 VA  46L 07JAN 1 DPSBNE SS4  2110  0505   08JAN 2 /DCVA /E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:06:12 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: undefined
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:06:16 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:20:02 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:20:58 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:21:04 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:21:15 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:21:52 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:27:37 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:28:32 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:28:58 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:29:50 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:30:09 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:31:39 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:43:33 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:44:14 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:47:16 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:47:58 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:48:27 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:49:06 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:49:48 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:51:49 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:51:49 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:52:28 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:53:13 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 21:56:54 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:01:36 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:02:15 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:02:50 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:22:29 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:22:43 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:22:51 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:23:56 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:27:46 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:28:18 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:28:24 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sat Oct 20 2018 22:28:29 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 13:44:52 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 13:45:40 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 13:46:10 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:37:54 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:38:57 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:40:26 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:40:52 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:41:25 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:41:53 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:43:40 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:43:46 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:53:21 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:54:42 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:54:44 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:57:09 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:58:01 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:58:03 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:58:08 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:58:58 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:59:00 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:59:24 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 14:59:25 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:02:39 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:02:41 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:03:12 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:04:09 GMT+0100 (BST)--::1-----
+      AI 951 V 06JAN 7 HYDDXB GK1   710P     810P1025P   GK
+  5  DL9385 X 07JAN 1 DXBAMS GK1        1   155A 620A   GK
+     OPERATED BY
+  6  DL9300 X 07JAN 1 AMSMIA GK1            955A 215P   GK
+     OPERATED BY
+  7  DL2122 X 07JAN 1 MIADTW GK1            444P 756P   GK
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:05:29 GMT+0100 (BST)--::1-----
+      11  AA2802 M 07JAN 1 MSYDFW UN2  1145 1325  07JAN  E  AA/ZFQNBK                
+ 12  AA 138 M 07JAN 1*MSYDFW TK2  0903 1050  07JAN  E  AA/ZFQNBK                
+ 13  AA 022 M 07JAN 1*DFWIAH TK2  1439 1545  07JAN  E  AA/ZFQNBK                
+ 14  AA5824 M 10JAN 4 IAHPHX UN2  1455 1643  10JAN  E  AA/ZFQNBK                
+     OPERATED BY SUBSIDIARY/FRANCHISE                                           
+ 15  AA 873 M 10JAN 4*IAHPHX TK2  1424 1625  10JAN  E  AA/ZFQNBK                
+ 16  AA 650 M 10JAN 4 PHXLAX UN2  1750 1808  10JAN  E  AA/ZFQNBK      
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:05:33 GMT+0100 (BST)--::1-----
+      11  AA2802 M 07JAN 1 MSYDFW UN2  1145 1325  07JAN  E  AA/ZFQNBK                
+ 12  AA 138 M 07JAN 1*MSYDFW TK2  0903 1050  07JAN  E  AA/ZFQNBK                
+ 13  AA 022 M 07JAN 1*DFWIAH TK2  1439 1545  07JAN  E  AA/ZFQNBK                
+ 14  AA5824 M 10JAN 4 IAHPHX UN2  1455 1643  10JAN  E  AA/ZFQNBK                
+     OPERATED BY SUBSIDIARY/FRANCHISE                                           
+ 15  AA 873 M 10JAN 4*IAHPHX TK2  1424 1625  10JAN  E  AA/ZFQNBK                
+ 16  AA 650 M 10JAN 4 PHXLAX UN2  1750 1808  10JAN  E  AA/ZFQNBK      
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:05:39 GMT+0100 (BST)--::1-----
+      11  AA2802 M 07JAN 1 MSYDFW UN2  1145 1325  07JAN  E  AA/ZFQNBK                
+ 12  AA 138 M 07JAN 1*MSYDFW TK2  0903 1050  07JAN  E  AA/ZFQNBK                
+ 13  AA 022 M 07JAN 1*DFWIAH TK2  1439 1545  07JAN  E  AA/ZFQNBK                
+ 14  AA5824 M 10JAN 4 IAHPHX UN2  1455 1643  10JAN  E  AA/ZFQNBK                
+     OPERATED BY SUBSIDIARY/FRANCHISE                                           
+ 15  AA 873 M 10JAN 4*IAHPHX TK2  1424 1625  10JAN  E  AA/ZFQNBK                
+ 16  AA 650 M 10JAN 4 PHXLAX UN2  1750 1808  10JAN  E  AA/ZFQNBK      
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:06:37 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:06:46 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:06:54 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:07:01 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:07:52 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:10:03 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:10:44 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:13:19 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:27:51 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:27:54 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:29:54 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:35:09 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:35:30 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:36:01 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:37:31 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:37:33 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:41:49 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:41:51 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:41:54 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:42:36 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:42:41 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:42:45 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:43:39 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:43:49 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:45:22 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:46:14 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 15:47:50 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:10 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:18 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: off
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:31 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:33 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:53 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:00:57 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:01:29 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:01:31 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:01:33 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:01:34 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:04:59 GMT+0100 (BST)--::1-----
+     1  QF1468 Y 11NOV 7*CBRSYD DK1  0955 1050  11NOV  E  0 DH4 R
+     OPERATED BY SUNSTATE ON BEHALF OF EASTERN
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:05:16 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:05:22 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: Off
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:05:25 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:05:43 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:08:02 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:08:20 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:08:33 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:09:11 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:09:23 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:19:44 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:20:45 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:20:48 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:21:28 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:22:45 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: undefined
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:22:56 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:23:07 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:23:10 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:24:13 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:26:25 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:27:03 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:32:51 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 16:33:34 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:47:48 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:48:15 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:48:30 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: undefined
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:48:37 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:52:30 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:53:15 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:53:39 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:55:05 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:55:31 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: class
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:55:37 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:55:53 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:59:27 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 17:59:46 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: on
+    distance: km
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:34:38 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:35:06 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:36:04 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:36:40 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:37:01 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:39:15 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:40:00 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:40:12 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:40:42 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:46:44 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:47:27 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:48:49 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:49:07 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:49:14 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:52:57 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: undefined
+
+    
+    -------Sun Oct 21 2018 19:53:58 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: undefined
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:54:03 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:56:23 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:56:44 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:56:52 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:57:07 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: class
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 19:57:10 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    
+    -------Sun Oct 21 2018 21:29:36 GMT+0100 (BST)--::1-----
+      1 B61336Z 06DEC TH DTWBOS SS1   651P  837P/O $ E
+ 2 QR 744W 06DEC TH BOSDOH SS1  1015P  555P#1/X $ J01 E
+ 3 QR 528W 07DEC FR DOHMAA SS1   640P  150A#1/X $ J01 E
+ 4 QR 529W 27DEC TH MAADOH SS1   320A  605A/O $ J02 E
+ 5 QR 743W 27DEC TH DOHBOS SS1   750A  210P/X $ J02 E
+ 6 B61837M 27DEC TH BOSDTW SS1   817P 1031P/X $ E
+
+    operatedby: on
+    transitTime: on
+    quoteheader: undefined
+    12hours: undefined
+    distance: miles
+    duration: on
+    cabin: cabin
+    logo: on
+    airlineName: on
+
+    

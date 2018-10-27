@@ -30,7 +30,6 @@
 </head>
 
 <body>
-
     <div id="notnav">
         <header>
 
@@ -85,7 +84,7 @@
                         onfocus="this.placeholder = ''"></textarea>
                     <!-- <input class="dataInputChild" type="submit" value="Convert" id="convertButton"> -->
                     <div class="dataInputChild" id="convertButton" onclick="document.getElementById('notheader').submit()">
-                        <h4>轉換</h4><img id="convertButtonImage" src="./images/convert.svg" height="50" width="50">
+                        <h4>轉換</h4><img id="convertButtonImage" src="/images/convert.svg" height="50" width="50">
                     </div>
 
                 </div>
@@ -102,17 +101,17 @@
                 </div>
 
 
-                <% if(processedFlight.renderOutput === 'home') { %>
+                <% if(cnProcessedFlight.renderOutput === 'home') { %>
                 <%  include ./partials/chinese/welcome.ejs %>
-                <%} else if(processedFlight.renderOutput === 'threelines'){%>
+                <%} else if(cnProcessedFlight.renderOutput === 'threelines'){%>
                 <%  include ./partials/chinese/threelines.ejs %>
-                <%} else if(processedFlight.renderOutput === 'twolines'){%>
+                <%} else if(cnProcessedFlight.renderOutput === 'twolines'){%>
                 <%  include ./partials/chinese/twolines.ejs %>
-                <%} else if(processedFlight.renderOutput === 'threelinesreordered'){%>
+                <%} else if(cnProcessedFlight.renderOutput === 'threelinesreordered'){%>
                 <%  include ./partials/chinese/threelinesreordered.ejs %>
-                <%} else if(processedFlight.renderOutput === 'twolinesreordered'){%>
+                <%} else if(cnProcessedFlight.renderOutput === 'twolinesreordered'){%>
                 <%  include ./partials/chinese/twolinesreordered.ejs %>
-                <%} else if(processedFlight.renderOutput === 'tableoutput'){%>
+                <%} else if(cnProcessedFlight.renderOutput === 'tableoutput'){%>
                 <%  include ./partials/chinese/table.ejs %>
                 <% }%>
 
